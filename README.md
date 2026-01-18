@@ -41,7 +41,7 @@ I'm a passionate developer focused on creating clean, efficient, and professiona
 - **Documentation:** Fully documented with JavaDoc and detailed Markdown guides.
 
 ### 🧩 [Other Project Placeholder]
-*Working on something cool using C# or Delphi? Add it here!*
+*Working on something cool...
 - Highlighting system interoperability or automation.
 
 ---
