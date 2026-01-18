@@ -46,10 +46,18 @@ I'm a passionate developer focused on creating clean, efficient, and professiona
 
 ---
 
+
 ## 📈 GitHub Stats
 
 <p align="center">
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SoftDryzz&theme=radical" />
+</p>
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=SoftDryzz&show_icons=true&theme=radical" />
+</p>
+
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=softdryzz&style=flat-square&color=blue" alt=""/>
 </p>
 
 ---
@@ -65,3 +73,5 @@ I'm a passionate developer focused on creating clean, efficient, and professiona
 > “Code is like humor. When you have to explain it, it’s bad.” – *Cory House*
 
 **Let's build something awesome together!**
+
+
