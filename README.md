@@ -118,6 +118,11 @@ I'm a passionate developer focused on creating clean, efficient, and professiona
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:)
 
 ---
+<a href="https://www.buymeacoffee.com/SoftDryzz" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" alt="Buy Me A Coffee">
+</a>
+
+---
 
 > *"Code is like humor. When you have to explain it, it's bad."* – Cory House
 
