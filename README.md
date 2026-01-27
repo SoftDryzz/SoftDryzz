@@ -102,10 +102,6 @@ I'm a passionate developer focused on creating clean, efficient, and professiona
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SoftDryzz&theme=radical&hide_border=true" />
-</p>
-
-<p align="center">
   <img src="https://komarev.com/ghpvc/?username=softdryzz&style=flat-square&color=blueviolet" alt="Profile views"/>
 </p>
 
