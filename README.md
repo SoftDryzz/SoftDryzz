@@ -116,10 +116,7 @@ I'm a passionate developer focused on creating clean, efficient, and professiona
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/softdryzz)
 [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/SoftDryzz)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:)
-[![Sponsor](https://img.shields.io/badge/Sponsor-💗-pink)](https://github.com/sponsors/SoftDryzz)
-
 ---
-
 
 <a href="https://buymeacoffee.com/xtoftomeo" target="_blank">
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" alt="Buy Me A Coffee">
