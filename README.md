@@ -96,10 +96,6 @@ I'm a passionate developer focused on creating clean, efficient, and professiona
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SoftDryzz&theme=radical" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SoftDryzz&show_icons=true&theme=radical&hide_border=true" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SoftDryzz&layout=compact&theme=radical&hide_border=true" />
-</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=softdryzz&style=flat-square&color=blueviolet" alt="Profile views"/>
