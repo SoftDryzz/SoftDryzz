@@ -113,7 +113,7 @@ I'm a passionate developer focused on creating clean, efficient, and professiona
 
 <p align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=SoftDryzz&show_icons=true&theme=radical&include_all_commits=true" height="165" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=SoftDryzz&layout=compact&theme=radical" height="165" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=SoftDryzz&layout=compact&theme=radical&langs_count=10" height="165" />
 </p>
 
 <p align="center">
