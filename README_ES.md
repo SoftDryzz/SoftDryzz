@@ -28,7 +28,7 @@
 
 | Título | Institución |
 |---|---|
-| **Desarrollo de Aplicaciones Multiplataforma (DAM)** | Centro Cartuja Campus, Sevilla |
+| **Desarrollo de Aplicaciones Multiplataforma (DAM)** | Campus Cámara de Comercio de Sevilla |
 | **Digitalización de Empresas** | EOI (Escuela de Organización Industrial) |
 | **Especialista en Inteligencia Artificial** | Founderz |
 

@@ -28,7 +28,7 @@
 
 | Title | Institution |
 |---|---|
-| **Multi-platform Application Development (DAM)** | Centro Cartuja Campus, Sevilla |
+| **Multi-platform Application Development (DAM)** | Campus Cámara de Comercio de Sevilla |
 | **Business Digitalization** | EOI (Escuela de Organización Industrial) |
 | **Artificial Intelligence Specialist** | Founderz |
 
