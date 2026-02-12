@@ -5,8 +5,6 @@
 > *Cristo Fernandez Tome* — Apasionado por crear software limpio, eficiente y profesional. Desde utilidades CLI hasta aplicaciones de seguridad de escritorio, desarrollo de videojuegos y consultoría digital.
 
 [![Website](https://img.shields.io/badge/softdryzz.com-FF5722?style=flat-square&logo=google-chrome&logoColor=white)](https://softdryzz.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/softdryzz)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/SoftDryzz)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:contact@softdryzz.com)
 [![Disponible](https://img.shields.io/badge/Disponible%20para%20proyectos-00C853?style=flat-square)](#-contáctame)
 
@@ -221,8 +219,6 @@ También ofrezco servicios profesionales a través de [softdryzz.com](https://so
 ## 📫 Contáctame
 
 [![Website](https://img.shields.io/badge/Website-softdryzz.com-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://softdryzz.com)
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/softdryzz)
-[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/SoftDryzz)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@softdryzz.com)
 
 ---
