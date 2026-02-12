@@ -24,10 +24,11 @@
 
 ---
 
-## 🎓 Certifications
+## 🎓 Education & Certifications
 
-| Certification | Issuer |
+| Title | Institution |
 |---|---|
+| **Multi-platform Application Development (DAM)** | Centro Cartuja Campus, Sevilla |
 | **Business Digitalization** | EOI (Escuela de Organización Industrial) |
 | **Artificial Intelligence Specialist** | Founderz |
 

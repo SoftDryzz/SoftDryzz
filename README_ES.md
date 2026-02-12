@@ -24,10 +24,11 @@
 
 ---
 
-## 🎓 Certificaciones
+## 🎓 Formación y Certificaciones
 
-| Certificación | Emisor |
+| Título | Institución |
 |---|---|
+| **Desarrollo de Aplicaciones Multiplataforma (DAM)** | Centro Cartuja Campus, Sevilla |
 | **Digitalización de Empresas** | EOI (Escuela de Organización Industrial) |
 | **Especialista en Inteligencia Artificial** | Founderz |
 
