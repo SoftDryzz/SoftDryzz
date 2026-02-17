@@ -19,6 +19,7 @@
 - 🎮 **Desarrollador de Videojuegos:** Creando experiencias inmersivas con **Roblox Studio** y **Lua**.
 - 🔒 **Enfoque en Seguridad:** Construyendo herramientas de monitorización de sistemas, detección de amenazas y análisis de seguridad.
 - 🧠 **Consultor Digital e IA:** Certificado en Digitalización de Empresas (EOI) e Inteligencia Artificial (Founderz). Ayudando a PYMEs a diseñar e implementar planes de transformación digital.
+- 🤖 **Constructor de IA:** Desarrollando sistemas de IA autónomos locales con capacidades de auto-evolución.
 - 🎯 **Enfoque:** Arquitectura de software, automatización, herramientas de seguridad y aplicaciones orientadas al desarrollador.
 - 🎨 **Filosofía:** Entusiasta del código limpio, legibilidad y documentación profesional de alta calidad.
 
@@ -72,12 +73,15 @@
 ![GraalVM](https://img.shields.io/badge/GraalVM-F29111?style=for-the-badge&logo=oracle&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 ![NextAuth.js](https://img.shields.io/badge/NextAuth.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 
 ### 🗄️ Bases de Datos
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge&logo=databricks&logoColor=white)
 
 ### 🚀 DevOps & Herramientas
 
@@ -96,19 +100,24 @@
 
 ## 📂 Proyectos Destacados
 
-### ⚔️ [Shadow Arise - RPG en Roblox](https://github.com/SoftDryzz/ShadowArise)
+### 🧠 [Project Pandora - IA Local Auto-Evolutiva](https://github.com/SoftDryzz/project-pandora)
 
-*RPG open-source en Roblox inspirado en Solo Leveling. Construye tu ejército de sombras y conviértete en el Monarca.*
+*Agente de IA autónomo local con auto-evolución, consciencia de hardware, interacción por voz y autonomía progresiva. Inspirado en Overlord.*
 
-![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
-![Roblox](https://img.shields.io/badge/Roblox-000000?style=flat-square&logo=roblox&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
-- ⚔️ **Sistema de Combate:** Combate en tiempo real con combos, críticos y robo de vida
-- 👻 **Ejército de Sombras:** Extrae e invoca sombras de enemigos derrotados
-- 🎰 **Sistema de Poderes:** 20+ poderes únicos con 6 niveles de rareza y mecánicas de pity
-- 🏰 **Mazmorras:** Múltiples dificultades con jefes únicos y tablas de botín
-- 📦 **Equipamiento:** Mejora (+1 a +20), infusión y bonificaciones de set
-- 🌐 **Bilingüe:** Soporte en inglés y español
+- 🧬 **Auto-Evolución:** Optimiza sus propios prompts, herramientas y estrategias de forma autónoma
+- 🖥️ **Consciencia de Hardware:** Monitoriza GPU/CPU/RAM en tiempo real, detecta cuellos de botella y solicita mejoras
+- 🗣️ **Interacción por Voz:** Pipeline completo TTS + STT con Whisper y Kokoro (bilingüe ES/EN)
+- 🔒 **Autonomía Progresiva:** Sistema de permisos de 6 niveles con gateway de aprobación humana y kill switch
+- 🧠 **Memoria Persistente:** Capas de memoria episódica + vectorial (ChromaDB) + auto-conocimiento
+- 📊 **Dashboard Web:** Monitorización en tiempo real, chat, historial de evolución y métricas de hardware
+- ⚡ **Módulos Rust de Alto Rendimiento:** Indexación de archivos, embeddings y monitorización del sistema vía PyO3
 
 ---
 
@@ -127,6 +136,22 @@
 - 🟢 **Monitor de Red:** Seguimiento de conexiones activas por proceso
 - 🟡 **Diagnóstico del Sistema:** Revisión de programas de inicio y tareas programadas
 - 🟣 **Alertas Inteligentes:** Notificaciones nativas de Windows con umbrales configurables
+- 🌐 **Bilingüe:** Soporte en inglés y español
+
+---
+
+### ⚔️ [Shadow Arise - RPG en Roblox](https://github.com/SoftDryzz/ShadowArise)
+
+*RPG open-source en Roblox inspirado en Solo Leveling. Construye tu ejército de sombras y conviértete en el Monarca.*
+
+![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
+![Roblox](https://img.shields.io/badge/Roblox-000000?style=flat-square&logo=roblox&logoColor=white)
+
+- ⚔️ **Sistema de Combate:** Combate en tiempo real con combos, críticos y robo de vida
+- 👻 **Ejército de Sombras:** Extrae e invoca sombras de enemigos derrotados
+- 🎰 **Sistema de Poderes:** 20+ poderes únicos con 6 niveles de rareza y mecánicas de pity
+- 🏰 **Mazmorras:** Múltiples dificultades con jefes únicos y tablas de botín
+- 📦 **Equipamiento:** Mejora (+1 a +20), infusión y bonificaciones de set
 - 🌐 **Bilingüe:** Soporte en inglés y español
 
 ---
@@ -164,7 +189,7 @@
 *Herramienta de optimización y ajuste del sistema Windows.*
 
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-5C2D91?style=flat-square&logo=.net&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
 
 - **Optimización del Sistema:** Ajusta y optimiza la configuración de Windows
 - **Aplicación de Escritorio:** Herramienta nativa de escritorio para Windows
