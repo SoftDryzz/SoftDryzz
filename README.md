@@ -19,6 +19,7 @@
 - 🎮 **Game Developer:** Creating immersive experiences with **Roblox Studio** and **Lua**.
 - 🔒 **Security Focus:** Building tools for system monitoring, threat detection, and security analysis.
 - 🧠 **Digital & AI Consultant:** Certified in Business Digitalization (EOI) and Artificial Intelligence (Founderz). Helping SMEs design and implement digital transformation plans.
+- 🤖 **AI Builder:** Developing autonomous local AI systems with self-evolution capabilities.
 - 🎯 **Focus:** Software architecture, automation, security tools, and developer-centric applications.
 - 🎨 **Philosophy:** Enthusiastic about clean code, readability, and high-quality professional documentation.
 
@@ -72,12 +73,15 @@
 ![GraalVM](https://img.shields.io/badge/GraalVM-F29111?style=for-the-badge&logo=oracle&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 ![NextAuth.js](https://img.shields.io/badge/NextAuth.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 
 ### 🗄️ Databases
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge&logo=databricks&logoColor=white)
 
 ### 🚀 DevOps & Tools
 
@@ -95,6 +99,27 @@
 ---
 
 ## 📂 Featured Projects
+
+### 🧠 [Project Pandora - Self-Evolving Local AI](https://github.com/SoftDryzz/project-pandora)
+
+*Autonomous local AI agent with self-evolution, hardware awareness, voice interaction, and progressive autonomy. Inspired by Overlord.*
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+
+- 🧬 **Self-Evolution:** Optimizes its own prompts, tools, and strategies autonomously
+- 🖥️ **Hardware Awareness:** Monitors GPU/CPU/RAM in real-time, detects bottlenecks, requests upgrades
+- 🗣️ **Voice Interaction:** Full TTS + STT pipeline with Whisper & Kokoro (bilingual ES/EN)
+- 🔒 **Progressive Autonomy:** 6-level permission system with human approval gateway & kill switch
+- 🧠 **Persistent Memory:** Episodic + vector (ChromaDB) + self-knowledge memory layers
+- 📊 **Web Dashboard:** Real-time monitoring, chat, evolution history & hardware metrics
+- ⚡ **Rust Performance Modules:** High-speed file indexing, embeddings & system monitoring via PyO3
+
+---
 
 ### ⚔️ [Shadow Arise - Roblox RPG](https://github.com/SoftDryzz/ShadowArise)
 
