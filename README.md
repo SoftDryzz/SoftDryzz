@@ -121,22 +121,6 @@
 
 ---
 
-### ⚔️ [Shadow Arise - Roblox RPG](https://github.com/SoftDryzz/ShadowArise)
-
-*Open-source Roblox RPG inspired by Solo Leveling. Build your shadow army and become the Monarch.*
-
-![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
-![Roblox](https://img.shields.io/badge/Roblox-000000?style=flat-square&logo=roblox&logoColor=white)
-
-- ⚔️ **Combat System:** Real-time combat with combos, critical hits, and lifesteal
-- 👻 **Shadow Army:** Extract and summon shadows from defeated enemies
-- 🎰 **Power System:** 20+ unique powers with 6 rarity tiers and pity mechanics
-- 🏰 **Dungeons:** Multiple difficulties with unique bosses and loot tables
-- 📦 **Equipment:** Enhancement (+1 to +20), infusion, and set bonuses
-- 🌐 **Bilingual:** English & Spanish support
-
----
-
 ### 🛡️ [Cerberus - Security Monitor](https://github.com/SoftDryzz/Cerberus)
 
 *Open-source Windows security monitoring tool with real-time threat detection.*
@@ -152,6 +136,22 @@
 - 🟢 **Network Monitor:** Active connections tracking per process
 - 🟡 **System Diagnosis:** Startup programs & scheduled tasks review
 - 🟣 **Smart Alerts:** Native Windows notifications with configurable thresholds
+- 🌐 **Bilingual:** English & Spanish support
+
+---
+
+### ⚔️ [Shadow Arise - Roblox RPG](https://github.com/SoftDryzz/ShadowArise)
+
+*Open-source Roblox RPG inspired by Solo Leveling. Build your shadow army and become the Monarch.*
+
+![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
+![Roblox](https://img.shields.io/badge/Roblox-000000?style=flat-square&logo=roblox&logoColor=white)
+
+- ⚔️ **Combat System:** Real-time combat with combos, critical hits, and lifesteal
+- 👻 **Shadow Army:** Extract and summon shadows from defeated enemies
+- 🎰 **Power System:** 20+ unique powers with 6 rarity tiers and pity mechanics
+- 🏰 **Dungeons:** Multiple difficulties with unique bosses and loot tables
+- 📦 **Equipment:** Enhancement (+1 to +20), infusion, and set bonuses
 - 🌐 **Bilingual:** English & Spanish support
 
 ---
