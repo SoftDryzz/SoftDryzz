@@ -121,6 +121,20 @@
 
 ---
 
+### 🛠️ [ProjectManager CLI](https://github.com/SoftDryzz/ProjectManager)
+
+*One command for all your projects. Unified CLI tool that detects project types and standardizes build/run/test commands.*
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![GraalVM](https://img.shields.io/badge/GraalVM-F29111?style=flat-square&logo=oracle&logoColor=white)
+
+- **Unified Commands:** Works with Gradle, Maven, Node.js, .NET, and Python projects
+- **Native Speed:** Compiled with GraalVM for instant startup
+- **Cross-Platform:** Automated installation scripts for Windows, Linux, and macOS
+- **Documentation:** Fully documented with JavaDoc and detailed Markdown guides
+
+---
+
 ### 🛡️ [Cerberus - Security Monitor](https://github.com/SoftDryzz/Cerberus)
 
 *Open-source Windows security monitoring tool with real-time threat detection.*
@@ -153,20 +167,6 @@
 - 🏰 **Dungeons:** Multiple difficulties with unique bosses and loot tables
 - 📦 **Equipment:** Enhancement (+1 to +20), infusion, and set bonuses
 - 🌐 **Bilingual:** English & Spanish support
-
----
-
-### 🛠️ [ProjectManager CLI](https://github.com/SoftDryzz/ProjectManager)
-
-*One command for all your projects. Unified CLI tool that detects project types and standardizes build/run/test commands.*
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![GraalVM](https://img.shields.io/badge/GraalVM-F29111?style=flat-square&logo=oracle&logoColor=white)
-
-- **Unified Commands:** Works with Gradle, Maven, Node.js, .NET, and Python projects
-- **Native Speed:** Compiled with GraalVM for instant startup
-- **Cross-Platform:** Automated installation scripts for Windows, Linux, and macOS
-- **Documentation:** Fully documented with JavaDoc and detailed Markdown guides
 
 ---
 
