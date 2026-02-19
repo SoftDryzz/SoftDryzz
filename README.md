@@ -252,7 +252,13 @@ I also offer professional services through [softdryzz.com](https://softdryzz.com
 ## 📫 Contact Me
 
 [![Website](https://img.shields.io/badge/Website-softdryzz.com-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://softdryzz.com)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@softdryzz.com)
+
+| | Email | Use |
+|---|---|---|
+| 📩 | **contact@softdryzz.com** | General inquiries & collaborations |
+| 🛡️ | **security@softdryzz.com** | Security vulnerabilities & responsible disclosure |
+| ⚖️ | **legal@softdryzz.com** | Commercial licensing |
+| 👤 | **cristo@softdryzz.com** | Direct / founder contact |
 
 ---
 
