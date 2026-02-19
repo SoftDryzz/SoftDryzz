@@ -135,6 +135,20 @@
 
 ---
 
+### 🔐 [Vaultic - Gestor de Secretos](https://github.com/SoftDryzz/vaultic)
+
+*Herramienta CLI para gestionar secretos y archivos de configuración de forma segura entre equipos de desarrollo usando sincronización basada en Git.*
+
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+
+- **Cifrado Robusto:** Cifrado age o GPG para todos los secretos
+- **Sincronización vía Git:** Sin necesidad de servicios cloud externos
+- **Multi-Entorno:** dev/staging/prod con herencia inteligente
+- **Detección de Variables:** Identifica variables de configuración ausentes o desincronizadas
+- **Registro de Auditoría:** Historial completo de quién cambió qué y cuándo
+
+---
+
 ### 🛡️ [Cerberus - Monitor de Seguridad](https://github.com/SoftDryzz/Cerberus)
 
 *Herramienta open-source de monitorización de seguridad en Windows con detección de amenazas en tiempo real.*
@@ -150,22 +164,6 @@
 - 🟢 **Monitor de Red:** Seguimiento de conexiones activas por proceso
 - 🟡 **Diagnóstico del Sistema:** Revisión de programas de inicio y tareas programadas
 - 🟣 **Alertas Inteligentes:** Notificaciones nativas de Windows con umbrales configurables
-- 🌐 **Bilingüe:** Soporte en inglés y español
-
----
-
-### ⚔️ [Shadow Arise - RPG en Roblox](https://github.com/SoftDryzz/ShadowArise)
-
-*RPG open-source en Roblox inspirado en Solo Leveling. Construye tu ejército de sombras y conviértete en el Monarca.*
-
-![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
-![Roblox](https://img.shields.io/badge/Roblox-000000?style=flat-square&logo=roblox&logoColor=white)
-
-- ⚔️ **Sistema de Combate:** Combate en tiempo real con combos, críticos y robo de vida
-- 👻 **Ejército de Sombras:** Extrae e invoca sombras de enemigos derrotados
-- 🎰 **Sistema de Poderes:** 20+ poderes únicos con 6 niveles de rareza y mecánicas de pity
-- 🏰 **Mazmorras:** Múltiples dificultades con jefes únicos y tablas de botín
-- 📦 **Equipamiento:** Mejora (+1 a +20), infusión y bonificaciones de set
 - 🌐 **Bilingüe:** Soporte en inglés y español
 
 ---
@@ -205,6 +203,15 @@
 - Monitorización de CPU, memoria y disco en tiempo real
 - Soporte multiplataforma
 - Consumo mínimo de recursos
+
+---
+
+### ⚔️ [Shadow Arise - RPG en Roblox](https://github.com/SoftDryzz/ShadowArise)
+
+*RPG open-source en Roblox inspirado en Solo Leveling con combate, mazmorras y mecánicas de ejército de sombras.*
+
+![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
+![Roblox](https://img.shields.io/badge/Roblox-000000?style=flat-square&logo=roblox&logoColor=white)
 
 ---
 
