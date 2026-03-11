@@ -1,279 +1,183 @@
-# Hi, I'm SoftDryzz 👋
+<div align="center">
 
-**Full-Stack Developer | Software Architecture & Security Enthusiast**
+# Cristo Fernandez Tome
 
-> *Cristo Fernandez Tome* — Passionate about building clean, efficient, and professional software. From CLI utilities to desktop security applications, game development, and digital consulting.
+**Full-Stack Developer | Rust & TypeScript | Founder of [SoftDryzz](https://softdryzz.com)**
 
-[![Website](https://img.shields.io/badge/softdryzz.com-FF5722?style=flat-square&logo=google-chrome&logoColor=white)](https://softdryzz.com)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:contact@softdryzz.com)
-[![Available](https://img.shields.io/badge/Available%20for%20projects-00C853?style=flat-square)](#-contact-me)
+Construyo herramientas de seguridad, CLIs y aplicaciones de escritorio con foco en rendimiento y fiabilidad.
 
-🌐 *[Leer en Español](README_ES.md)*
+[![Website](https://img.shields.io/badge/softdryzz.com-111111?style=flat-square&logo=google-chrome&logoColor=white)](https://softdryzz.com)
+[![Email](https://img.shields.io/badge/contact@softdryzz.com-111111?style=flat-square&logo=gmail&logoColor=white)](mailto:contact@softdryzz.com)
 
----
-
-## 🚀 About Me
-
-- 💻 **Backend Expert:** Strong experience in **Java**, **C#**, and **Rust**, with specialized knowledge in **Delphi/Object Pascal**.
-- 🌐 **Full-Stack Developer:** Building modern web apps with **React**, **Next.js**, **Svelte**, and **Node.js**.
-- 🎮 **Game Developer:** Creating immersive experiences with **Roblox Studio** and **Lua**.
-- 🔒 **Security Focus:** Building tools for system monitoring, threat detection, and security analysis.
-- 🧠 **Digital & AI Consultant:** Certified in Business Digitalization (EOI) and Artificial Intelligence (Founderz). Helping SMEs design and implement digital transformation plans.
-- 🤖 **AI Builder:** Developing autonomous local AI systems with self-evolution capabilities.
-- 🎯 **Focus:** Software architecture, automation, security tools, and developer-centric applications.
-- 🎨 **Philosophy:** Enthusiastic about clean code, readability, and high-quality professional documentation.
+</div>
 
 ---
 
-## 🎓 Education & Certifications
+## Sobre mi
 
-| Title | Institution |
-|---|---|
-| **Multi-platform Application Development (DAM)** | Campus Cámara de Comercio de Sevilla |
-| **Business Digitalization** | EOI (Escuela de Organización Industrial) |
-| **Artificial Intelligence Specialist** | Founderz |
+Soy desarrollador full-stack especializado en **Rust** y **TypeScript**. Mi trabajo se centra en herramientas de seguridad, aplicaciones de escritorio de alto rendimiento y utilidades CLI. Fundador de **SoftDryzz**, donde desarrollo software profesional y ofrezco servicios de consultoria digital.
 
----
+Titulado en Desarrollo de Aplicaciones Multiplataforma (DAM), con certificaciones en Digitalizacion Empresarial (EOI) e Inteligencia Artificial (Founderz).
 
-## 🛠️ Tech Stack
-
-### 🖥️ Languages
-
-![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white)
-![Delphi](https://img.shields.io/badge/Delphi-%23FF0000.svg?style=for-the-badge&logo=delphi&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![SQL](https://img.shields.io/badge/sql-%2300758F.svg?style=for-the-badge&logo=amazondocumentdb&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
-
-### ⚙️ Frameworks & Frontend
-
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
-![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer%20Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
-![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
-![Zustand](https://img.shields.io/badge/zustand-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-
-### 🔧 Backend & Runtime
-
-![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Tauri](https://img.shields.io/badge/tauri-%2324C8DB.svg?style=for-the-badge&logo=tauri&logoColor=%23FFFFFF)
-![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
-![Tokio](https://img.shields.io/badge/tokio-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
-![GraalVM](https://img.shields.io/badge/GraalVM-F29111?style=for-the-badge&logo=oracle&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-![NextAuth.js](https://img.shields.io/badge/NextAuth.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
-
-### 🗄️ Databases
-
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge&logo=databricks&logoColor=white)
-
-### 🚀 DevOps & Tools
-
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=stripe&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-
-### 🎮 Game Development
-
-![Roblox Studio](https://img.shields.io/badge/Roblox%20Studio-%23000000.svg?style=for-the-badge&logo=roblox&logoColor=white)
+> *[Read in English](#english)*
 
 ---
 
-## 📂 Featured Projects
+## Actualmente trabajando en
 
-### 🧠 [Project Pandora - Self-Evolving Local AI](https://github.com/SoftDryzz/project-pandora)
+- **Vaultic v2** — Nueva version del gestor de secretos con soporte para equipos, rotacion automatica de claves y plugins de integracion.
+- **Cerberus Pro** — Version avanzada del monitor de seguridad con analisis de comportamiento, reglas personalizadas y reporting automatizado.
 
-*Autonomous local AI agent with self-evolution, hardware awareness, voice interaction, and progressive autonomy. Inspired by Overlord.*
+---
 
-![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
+## Proyectos destacados
+
+### [Vaultic v1.3 - Gestor de secretos CLI](https://github.com/SoftDryzz/vaultic)
+
+*Herramienta CLI para gestionar secretos y configuracion de forma segura entre equipos, con sincronizacion basada en Git. Publicada en crates.io.*
+
+`Rust`
+
+- Cifrado robusto con age o GPG y soporte multi-recipient
+- Sincronizacion via Git sin dependencias cloud
+- Soporte multi-entorno (dev/staging/prod) con herencia inteligente
+- Diff y comparacion de secretos entre archivos y entornos
+- Deteccion automatica de variables ausentes o desincronizadas
+- Registro de auditoria completo en formato JSON
+
+---
+
+### [Cerberus - Monitor de seguridad](https://github.com/SoftDryzz/Cerberus)
+
+*Monitor de seguridad open-source para Windows con deteccion de amenazas en tiempo real.*
+
+`Rust` `Tauri` `Svelte` `TypeScript` `SQLite`
+
+- Monitor de procesos con puntuacion de riesgo (0-100)
+- Analizador de ejecutables: hash, analisis PE, integracion VirusTotal
+- Monitor de red con seguimiento de conexiones por proceso
+- Diagnostico del sistema: programas de inicio y tareas programadas
+- Alertas nativas con umbrales configurables
+- 119 unit tests | Soporte bilingue (ES/EN)
+
+---
+
+### [ProjectManager v2.0 CLI](https://github.com/SoftDryzz/ProjectManager)
+
+*Un comando para todos tus proyectos. Detecta el tipo y estandariza build/run/test con diagnosticos, seguridad y estadisticas.*
+
+`Java` `Maven`
+
+- Deteccion automatica de 12+ tipos de proyecto (Gradle, Maven, Node.js, .NET, Python, Rust, Go, Flutter, Docker...)
+- Diagnosticos con `pm doctor`, escaneo de seguridad con `pm secure` y auditorias con `pm audit`
+- Estadisticas de rendimiento: tiempos de build/test/run y tendencias
+- 800+ tests | Multiplataforma (Windows, Linux, macOS)
+
+---
+
+### [Tower Rate Tier - Rate limiting por niveles para Tower](https://github.com/SoftDryzz/tower-rate-tier)
+
+*Middleware de rate limiting por tiers para el ecosistema Tower. Permite definir limites por plan (free/pro/enterprise) con soporte para request cost, storage pluggable y headers estandar.*
+
+`Rust` `Tower` `Tokio`
+
+- Rate limiting por tier/plan configurable por el usuario
+- Request cost: endpoints pesados consumen mas cuota
+- Algoritmo GCRA para distribucion uniforme de carga
+- Storage pluggable: in-memory o Redis
+- Compatible con Axum, Actix, Hyper y cualquier servicio Tower
+
+---
+
+### [Overlord (Pandora) - Agente IA auto-evolutivo](https://github.com/SoftDryzz/project-pandora)
+
+*Agente de IA local autonomo con auto-evolucion, consciencia de hardware, voz bilingue y autonomia progresiva. 9 fases de desarrollo completadas.*
+
+`Python` `Rust` `Docker` `React` `FastAPI`
+
+- Auto-evolucion real: optimiza sus propios prompts, herramientas y estrategias
+- Consciencia de hardware: monitoriza GPU/CPU/RAM, detecta cuellos de botella y solicita mejoras
+- Autonomia progresiva de 6 niveles con gateway de aprobacion humana y kill switch
+- Voz bilingue (ES/EN) con Whisper, Kokoro y Silero VAD
+- Ejecucion de codigo en sandbox Docker + web automation con Playwright
+- Web UI (React/Vite) + CLI con dashboard en tiempo real (Rich)
+- Modulos Rust de alto rendimiento via PyO3 | Memoria persistente con ChromaDB
+
+---
+
+## Stack tecnologico
+
+**Lenguajes principales**
+
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-
-- 🧬 **Self-Evolution:** Optimizes its own prompts, tools, and strategies autonomously
-- 🖥️ **Hardware Awareness:** Monitors GPU/CPU/RAM in real-time, detects bottlenecks, requests upgrades
-- 🗣️ **Voice Interaction:** Full TTS + STT pipeline with Whisper & Kokoro (bilingual ES/EN)
-- 🔒 **Progressive Autonomy:** 6-level permission system with human approval gateway & kill switch
-- 🧠 **Persistent Memory:** Episodic + vector (ChromaDB) + self-knowledge memory layers
-- 📊 **Web Dashboard:** Real-time monitoring, chat, evolution history & hardware metrics
-- ⚡ **Rust Performance Modules:** High-speed file indexing, embeddings & system monitoring via PyO3
-
----
-
-### 🛠️ [ProjectManager CLI](https://github.com/SoftDryzz/ProjectManager)
-
-*One command for all your projects. Unified CLI tool that detects project types and standardizes build/run/test commands.*
-
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![GraalVM](https://img.shields.io/badge/GraalVM-F29111?style=flat-square&logo=oracle&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
 
-- **Unified Commands:** Works with Gradle, Maven, Node.js, .NET, and Python projects
-- **Native Speed:** Compiled with GraalVM for instant startup
-- **Cross-Platform:** Automated installation scripts for Windows, Linux, and macOS
-- **Documentation:** Fully documented with JavaDoc and detailed Markdown guides
+**Frontend & Desktop**
 
----
-
-### 🔐 [Vaultic - Secrets Manager](https://github.com/SoftDryzz/vaultic)
-
-*CLI tool for securely managing secrets and configuration files across development teams using Git-based sync.*
-
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-
-- **Strong Encryption:** age or GPG encryption for all secrets
-- **Git-Based Sync:** No external cloud services needed
-- **Multi-Environment:** dev/staging/prod with smart inheritance
-- **Variable Detection:** Identifies missing or out-of-sync config variables
-- **Audit Trail:** Full history of who changed what and when
-
----
-
-### 🛡️ [Cerberus - Security Monitor](https://github.com/SoftDryzz/Cerberus)
-
-*Open-source Windows security monitoring tool with real-time threat detection.*
-
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white)
 ![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=flat-square&logo=svelte&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB)
+![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+
+**Backend & Infra**
+
+![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=flat-square&logo=sqlite&logoColor=white)
-
-- 🔴 **Process Monitor:** Real-time analysis with risk scoring (0-100)
-- 🔵 **Executable Analyzer:** Hash verification, PE analysis, VirusTotal integration
-- 🟢 **Network Monitor:** Active connections tracking per process
-- 🟡 **System Diagnosis:** Startup programs & scheduled tasks review
-- 🟣 **Smart Alerts:** Native Windows notifications with configurable thresholds
-- 🌐 **Bilingual:** English & Spanish support
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2671E5?style=flat-square&logo=githubactions&logoColor=white)
 
 ---
 
-### 📁 [FileSystemMonitor](https://github.com/SoftDryzz/FileSystemMonitor)
+## GitHub Stats
 
-*Lightweight Windows desktop application that monitors file system changes in real-time.*
+<p align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=SoftDryzz&show_icons=true&theme=github_dark&include_all_commits=true&hide_border=true" height="165" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=SoftDryzz&layout=compact&theme=github_dark&langs_count=8&hide_border=true" height="165" />
+</p>
 
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET%208-5C2D91?style=flat-square&logo=.net&logoColor=white)
-![WPF](https://img.shields.io/badge/WPF-5C2D91?style=flat-square&logo=windows&logoColor=white)
-
-- **Real-Time Tracking:** Monitors file and folder creation, modification, deletion, and renaming
-- **Modern UI:** Built with WPF and .NET 8 with a clean, modern interface
-- **Lightweight:** Minimal resource footprint
-
----
-
-### ⚡ [WindowsOptimizer](https://github.com/SoftDryzz/WindowsOptimizer)
-
-*Windows optimization and system tuning tool.*
-
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-5C2D91?style=flat-square&logo=.net&logoColor=white)
-
-- **System Optimization:** Tune and optimize Windows settings
-- **Desktop Application:** Native Windows desktop tool
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SoftDryzz&theme=github-compact&hide_border=true" />
+</p>
 
 ---
 
-### 📊 [System Monitor](https://github.com/SoftDryzz/system_monitor)
+## Contacto
 
-*Lightweight CLI system monitor built in Rust.*
-
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-
-- Real-time CPU, memory, and disk monitoring
-- Cross-platform support
-- Minimal resource footprint
-
----
-
-### ⚔️ [Shadow Arise - Roblox RPG](https://github.com/SoftDryzz/ShadowArise)
-
-*Open-source Roblox RPG inspired by Solo Leveling with combat, dungeons, and shadow army mechanics.*
-
-![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
-![Roblox](https://img.shields.io/badge/Roblox-000000?style=flat-square&logo=roblox&logoColor=white)
-
----
-
-## 💼 Services
-
-I also offer professional services through [softdryzz.com](https://softdryzz.com):
-
-| Service | Description |
+| Email | Uso |
 |---|---|
-| 🧠 **Digital & AI Consulting** | Digital audits, transformation plans, AI integration |
-| 💻 **Custom Development** | Desktop apps, internal tools, integrations & APIs |
-| ⚙️ **Process Automation** | Automated workflows, system integration, team training |
-| 🌐 **Web Development** | Landing pages, multi-section websites, e-commerce |
+| **contact@softdryzz.com** | Consultas generales y colaboraciones |
+| **security@softdryzz.com** | Vulnerabilidades y divulgacion responsable |
+| **cristo@softdryzz.com** | Contacto directo |
+
+[![Website](https://img.shields.io/badge/softdryzz.com-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://softdryzz.com)
 
 ---
 
-## 📈 GitHub Stats
+<a id="english"></a>
 
-<p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=SoftDryzz&show_icons=true&theme=radical&include_all_commits=true" height="165" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=SoftDryzz&layout=compact&theme=radical&langs_count=10" height="165" />
-</p>
+## About me (English)
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SoftDryzz&theme=radical" />
-</p>
+I'm a full-stack developer specializing in **Rust** and **TypeScript**. My work focuses on security tooling, high-performance desktop applications, and developer CLI utilities. I founded **SoftDryzz**, where I build professional software and provide digital consulting services.
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SoftDryzz&theme=radical" />
-</p>
+**Currently working on:** Vaultic v2 (secrets manager with team support) and Cerberus Pro (advanced security monitor with behavioral analysis).
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=softdryzz&style=flat-square&color=blueviolet" alt="Profile views"/>
-</p>
-
----
-
-## 📫 Contact Me
-
-[![Website](https://img.shields.io/badge/Website-softdryzz.com-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://softdryzz.com)
-
-| | Email | Use |
-|---|---|---|
-| 📩 | **contact@softdryzz.com** | General inquiries & collaborations |
-| 🛡️ | **security@softdryzz.com** | Security vulnerabilities & responsible disclosure |
-| ⚖️ | **legal@softdryzz.com** | Commercial licensing |
-| 👤 | **cristo@softdryzz.com** | Direct / founder contact |
+**Featured projects:** [Vaultic](https://github.com/SoftDryzz/vaultic) — secrets manager CLI in Rust | [Cerberus](https://github.com/SoftDryzz/Cerberus) — Windows security monitor | [ProjectManager](https://github.com/SoftDryzz/ProjectManager) — unified project CLI | [Tower Rate Tier](https://github.com/SoftDryzz/tower-rate-tier) — tier-based rate limiting for Tower | [Project Pandora](https://github.com/SoftDryzz/project-pandora) — autonomous local AI agent.
 
 ---
 
 <p align="center">
   <a href="https://github.com/sponsors/SoftDryzz">
-    <img src="https://img.shields.io/badge/Sponsor-💗-ea4aaa?style=for-the-badge&logo=github" height="40" alt="GitHub Sponsors">
+    <img src="https://img.shields.io/badge/Sponsor-ea4aaa?style=flat-square&logo=github-sponsors&logoColor=white" alt="GitHub Sponsors">
   </a>
-  &nbsp;&nbsp;
-  <a href="https://buymeacoffee.com/xtoftomeo" target="_blank">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="40" alt="Buy Me A Coffee">
+  &nbsp;
+  <a href="https://buymeacoffee.com/xtoftomeo">
+    <img src="https://img.shields.io/badge/Buy_me_a_coffee-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee">
   </a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=softdryzz&style=flat-square&color=555555" alt="Profile views"/>
 </p>
-
----
-
-> *"Code is like humor. When you have to explain it, it's bad."* – Cory House
-
-**Let's build something awesome together!** 🚀

@@ -100,52 +100,70 @@
 
 ## 📂 Proyectos Destacados
 
-### 🧠 [Project Pandora - IA Local Auto-Evolutiva](https://github.com/SoftDryzz/project-pandora)
+### 🧠 [Overlord (Pandora) - IA Local Auto-Evolutiva](https://github.com/SoftDryzz/project-pandora)
 
-*Agente de IA autónomo local con auto-evolución, consciencia de hardware, interacción por voz y autonomía progresiva. Inspirado en Overlord.*
+*Agente de IA autónomo local con auto-evolución, consciencia de hardware, interacción por voz y autonomía progresiva. 9 fases de desarrollo completadas.*
 
 ![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
-- 🧬 **Auto-Evolución:** Optimiza sus propios prompts, herramientas y estrategias de forma autónoma
+- 🧬 **Auto-Evolución Real:** Optimiza sus propios prompts, herramientas y estrategias de forma autónoma
 - 🖥️ **Consciencia de Hardware:** Monitoriza GPU/CPU/RAM en tiempo real, detecta cuellos de botella y solicita mejoras
-- 🗣️ **Interacción por Voz:** Pipeline completo TTS + STT con Whisper y Kokoro (bilingüe ES/EN)
-- 🔒 **Autonomía Progresiva:** Sistema de permisos de 6 niveles con gateway de aprobación humana y kill switch
+- 🗣️ **Voz Bilingüe:** Pipeline TTS + STT con Whisper, Kokoro y Silero VAD (ES/EN)
+- 🔒 **Autonomía Progresiva:** 6 niveles de permisos con gateway de aprobación humana y kill switch
 - 🧠 **Memoria Persistente:** Capas de memoria episódica + vectorial (ChromaDB) + auto-conocimiento
-- 📊 **Dashboard Web:** Monitorización en tiempo real, chat, historial de evolución y métricas de hardware
-- ⚡ **Módulos Rust de Alto Rendimiento:** Indexación de archivos, embeddings y monitorización del sistema vía PyO3
+- 🌐 **Web UI + CLI:** Dashboard React/Vite en tiempo real + CLI con Rich y métricas live
+- 🐳 **Sandbox Docker:** Ejecución segura de código + web automation con Playwright
+- ⚡ **Módulos Rust:** Indexación de archivos y búsqueda de texto de alto rendimiento vía PyO3
 
 ---
 
-### 🛠️ [ProjectManager CLI](https://github.com/SoftDryzz/ProjectManager)
+### 🛠️ [ProjectManager v2.0 CLI](https://github.com/SoftDryzz/ProjectManager)
 
-*Un comando para todos tus proyectos. Herramienta CLI unificada que detecta tipos de proyecto y estandariza comandos de build/run/test.*
+*Un comando para todos tus proyectos. Herramienta CLI unificada que detecta tipos de proyecto y estandariza comandos de build/run/test con diagnósticos, seguridad y estadísticas.*
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![GraalVM](https://img.shields.io/badge/GraalVM-F29111?style=flat-square&logo=oracle&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
 
-- **Comandos Unificados:** Funciona con proyectos Gradle, Maven, Node.js, .NET y Python
-- **Velocidad Nativa:** Compilado con GraalVM para inicio instantáneo
-- **Multiplataforma:** Scripts de instalación automatizados para Windows, Linux y macOS
-- **Documentación:** Completamente documentado con JavaDoc y guías detalladas en Markdown
+- **Detección Automática:** Soporta 12+ tipos de proyecto (Gradle, Maven, Node.js, .NET, Python, Rust, Go, Flutter, Docker...)
+- **Diagnósticos:** `pm doctor` para salud del entorno con puntuación A-F
+- **Seguridad:** `pm secure` escanea misconfiguraciones, `pm audit` audita dependencias
+- **Estadísticas:** Tiempos de build/test/run y tendencias de rendimiento
+- **800+ Tests:** Multiplataforma (Windows, Linux, macOS)
 
 ---
 
-### 🔐 [Vaultic - Gestor de Secretos](https://github.com/SoftDryzz/vaultic)
+### 🌐 [Tower Rate Tier - Rate Limiting por Niveles](https://github.com/SoftDryzz/tower-rate-tier)
 
-*Herramienta CLI para gestionar secretos y archivos de configuración de forma segura entre equipos de desarrollo usando sincronización basada en Git.*
+*Middleware de rate limiting por tiers para el ecosistema Tower. Define límites por plan (free/pro/enterprise) con soporte para request cost, storage pluggable y headers estándar.*
+
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Tokio](https://img.shields.io/badge/Tokio-000000?style=flat-square&logo=rust&logoColor=white)
+
+- **Rate Limiting por Tier:** El usuario define sus planes y límites (free, pro, enterprise...)
+- **Request Cost:** Endpoints pesados consumen más cuota que los ligeros
+- **Algoritmo GCRA:** Distribución uniforme de carga, sin bursts
+- **Storage Pluggable:** In-memory (DashMap) o Redis para múltiples servidores
+- **Compatible con Tower:** Funciona con Axum, Actix, Hyper y cualquier servicio Tower
+
+---
+
+### 🔐 [Vaultic v1.3 - Gestor de Secretos](https://github.com/SoftDryzz/vaultic)
+
+*Herramienta CLI para gestionar secretos y archivos de configuración de forma segura entre equipos de desarrollo usando sincronización basada en Git. Publicada en crates.io.*
 
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 
-- **Cifrado Robusto:** Cifrado age o GPG para todos los secretos
+- **Cifrado Robusto:** Cifrado age o GPG con soporte multi-recipient
 - **Sincronización vía Git:** Sin necesidad de servicios cloud externos
 - **Multi-Entorno:** dev/staging/prod con herencia inteligente
+- **Diff y Comparación:** Compara secretos entre archivos y entornos resueltos
 - **Detección de Variables:** Identifica variables de configuración ausentes o desincronizadas
-- **Registro de Auditoría:** Historial completo de quién cambió qué y cuándo
+- **Registro de Auditoría:** Historial completo en formato JSON de quién cambió qué y cuándo
 
 ---
 
