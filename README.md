@@ -197,6 +197,8 @@ I also offer professional services through [softdryzz.com](https://softdryzz.com
 </p>
 
 ---
+![Profile Views](https://komarev.com/ghpvc/?username=SoftDryzz&color=2ea44f&style=flat&label=Profile+Views)
+---
 
 ## 📫 Contact Me
 
@@ -223,9 +225,6 @@ I also offer professional services through [softdryzz.com](https://softdryzz.com
 
 ---
 
-![Profile Views](https://komarev.com/ghpvc/?username=SoftDryzz&color=blue)
-
----
 
 > *"Code is like humor. When you have to explain it, it's bad."* – Cory House
 
