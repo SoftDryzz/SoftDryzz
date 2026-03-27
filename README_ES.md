@@ -87,7 +87,7 @@
 
 ## 📂 Proyectos Destacados
 
-### 🔐 [Vaultic v1.3 - Gestor de Secretos](https://github.com/SoftDryzz/vaultic)
+### 🔐 [Vaultic v1.4 - Gestor de Secretos](https://github.com/SoftDryzz/vaultic)
 
 *Herramienta CLI para gestionar secretos y configuración de forma segura entre equipos, con sincronización basada en Git. Publicada en crates.io.*
 
