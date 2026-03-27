@@ -87,7 +87,7 @@
 
 ## 📂 Featured Projects
 
-### 🔐 [Vaultic v1.3 - Secrets Manager](https://github.com/SoftDryzz/vaultic)
+### 🔐 [Vaultic v1.4 - Secrets Manager](https://github.com/SoftDryzz/vaultic)
 
 *CLI tool for securely managing secrets and configuration across teams, with Git-based sync. Published on crates.io.*
 
