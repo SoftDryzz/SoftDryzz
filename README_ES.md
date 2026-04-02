@@ -104,7 +104,7 @@
 
 ### 🛡️ [Cerberus - Monitor de Seguridad](https://github.com/SoftDryzz/Cerberus)
 
-*Monitor de seguridad open-source para Windows con detección de amenazas en tiempo real.*
+*Monitor de seguridad privado para Windows con detección de amenazas en tiempo real.*
 
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white)
