@@ -23,6 +23,21 @@
 
 ---
 
+## 🎯 Core Expertise & Knowledge Gained
+
+Through the **Hyperion** hypervisor project, I've developed deep expertise in:
+
+- **Hypervisor & Virtualization:** VMX (Virtual Machine eXtension), EPT (Extended Page Tables), VM-exits, INVEPT invalidation, VM-entry/exit optimization
+- **Kernel-Mode Development:** Windows Driver Development Kit (WDK), Ring 0 ↔ Ring 3 communication via IOCTLs, lock-free kernel structures, memory mapping strategies
+- **Low-Level System Programming:** CPU caching behaviors (MTRR, CPUID), hardware threading, latency profiling (sub-microsecond cycle measurement)
+- **Performance Engineering:** Driver-level telemetry pipelines, async double-buffering, event filtering, overflow throttling at kernel-layer
+- **Threat Detection & Security:** Real-time event logging, forensic analysis integration, execution path tracing, anomaly detection in hardware events
+- **Systems Architecture:** Production-hardening strategies, multi-phase integration testing, phase-gated deployment (Phase 1→5), fire-test validation
+
+This represents **advanced systems programming** capabilities at the hypervisor and kernel level — a specialization that unlocks deep understanding of operating systems, security, and performance optimization.
+
+---
+
 ## 🎓 Education & Certifications
 
 | Title | Institution |
@@ -47,6 +62,7 @@
 ### 🖥️ Languages
 
 ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+![C++](https://img.shields.io/badge/c%2B%2B-%2300599C.svg?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -71,6 +87,14 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 
+### 🛡️ Systems & Kernel Programming
+
+![Windows Driver Kit](https://img.shields.io/badge/WDK-0078D4?style=for-the-badge&logo=windows&logoColor=white)
+![VMX/EPT](https://img.shields.io/badge/VMX%2FEPT-FF0000?style=for-the-badge&logo=virtualization&logoColor=white)
+![Hypervisor Development](https://img.shields.io/badge/Hypervisor-000000?style=for-the-badge)
+![Ring 0 Programming](https://img.shields.io/badge/Ring0%2FKernel-4B0082?style=for-the-badge)
+![Performance Profiling](https://img.shields.io/badge/Latency%20Profiling-FF6B6B?style=for-the-badge)
+
 ### 🗄️ Databases
 
 ![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -86,6 +110,24 @@
 ---
 
 ## 📂 Featured Projects
+
+### 🔷 [Hyperion - Advanced Hypervisor & VMI Platform](https://github.com/SoftDryzz/Hyperion)
+
+*Production-ready kernel-mode hypervisor with real-time VMI (Virtual Machine Introspection) telemetry, threat detection, and forensic analysis. 5 development phases: VMX/EPT foundation → Ring 0↔3 telemetry → Event filtering → Memory shadowing → Threat detection & forensics UI.*
+
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Windows Driver Kit](https://img.shields.io/badge/WDK-0078D4?style=flat-square&logo=windows&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+
+- 🏗️ **Hypervisor Foundation:** VMX (Virtual Machine eXtension) with EPT (Extended Page Tables), MTRR caching optimization, CPUID emulation
+- 📊 **Real-Time Telemetry:** Lock-free Ring 0 → Ring 3 async double-buffer pipeline with intelligent overflow throttling
+- 🎯 **Event Filtering:** CPU-efficient kernel-mode filtering of VM-exits with per-event statistics
+- 🛡️ **Threat Detection:** Hardware-level execution path tracing, anomaly scoring, forensic event logging
+- 🔍 **Memory Shadowing:** Copy-on-Write semantics for stealthy memory monitoring and integrity checking
+- ⚡ **Performance Tuning:** Sub-microsecond latency profiling, INVEPT defer batching, hardware cache-aware algorithms
+- 🧪 **Production-Ready:** 5-phase gated deployment with fire-test validation, comprehensive error analysis, Spanish documentation suite
+
+---
 
 ### 🔐 [Vaultic v1.4 - Secrets Manager](https://github.com/SoftDryzz/vaultic)
 
