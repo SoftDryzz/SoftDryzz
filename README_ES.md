@@ -48,15 +48,6 @@ Esto representa **programación avanzada de sistemas** a nivel hypervisor y kern
 
 ---
 
-## 🔨 Actualmente Trabajando En
-
-- **FindMatch** — Plataforma de matchmaking deportivo con backend Rust (Axum) + app Flutter. Partidos, equipos, ligas, reservas de campos, chat en tiempo real y rating Glicko-2. PostGIS, Redis, Stripe.
-- **Vrydex** — Plataforma SaaS de visibilidad unificada para desarrolladores. Análisis de salud de repos GitHub + monitoreo de servidores Linux en un único dashboard con alertas y billing Stripe.
-- **Vaultic v2** — Nueva versión del gestor de secretos con soporte para equipos, rotación automática de claves y plugins de integración.
-- **Tower Rate Tier** — Middleware de rate limiting por niveles para el ecosistema Tower en Rust.
-
----
-
 ## 🛠️ Stack Tecnológico
 
 ### 🖥️ Lenguajes
