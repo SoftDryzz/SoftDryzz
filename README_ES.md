@@ -25,7 +25,7 @@
 
 ## 🎯 Experticia Clave y Conocimiento Adquirido
 
-A través del proyecto **Hyperion**, he desarrollado expertise avanzada en:
+A través del proyecto **Hyperion**, he desarrollado experiencia avanzada en:
 
 - **Hypervisor y Virtualización:** VMX (Virtual Machine eXtension), EPT (Extended Page Tables), VM-exits, INVEPT invalidation, optimización VM-entry/exit
 - **Desarrollo Kernel-Mode:** Windows Driver Development Kit (WDK), comunicación Ring 0 ↔ Ring 3 vía IOCTLs, estructuras lock-free en kernel, estrategias de mapeo de memoria
