@@ -71,6 +71,14 @@ Esto representa **programación avanzada de sistemas** a nivel hypervisor y kern
 ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white)
 ![SQL](https://img.shields.io/badge/sql-%2300758F.svg?style=for-the-badge&logo=amazondocumentdb&logoColor=white)
 
+### 🛡️ Programación de Sistemas & Kernel
+
+![Windows Driver Kit](https://img.shields.io/badge/WDK-0078D4?style=for-the-badge&logo=windows&logoColor=white)
+![VMX/EPT](https://img.shields.io/badge/VMX%2FEPT-FF0000?style=for-the-badge&logo=virtualization&logoColor=white)
+![Hypervisor Development](https://img.shields.io/badge/Hypervisor-000000?style=for-the-badge)
+![Ring 0 Programming](https://img.shields.io/badge/Ring0%2FKernel-4B0082?style=for-the-badge)
+![Performance Profiling](https://img.shields.io/badge/Latency%20Profiling-FF6B6B?style=for-the-badge)
+
 ### ⚙️ Frameworks & Frontend
 
 ![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white)
@@ -86,14 +94,6 @@ Esto representa **programación avanzada de sistemas** a nivel hypervisor y kern
 ![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
-
-### 🛡️ Programación de Sistemas & Kernel
-
-![Windows Driver Kit](https://img.shields.io/badge/WDK-0078D4?style=for-the-badge&logo=windows&logoColor=white)
-![VMX/EPT](https://img.shields.io/badge/VMX%2FEPT-FF0000?style=for-the-badge&logo=virtualization&logoColor=white)
-![Hypervisor Development](https://img.shields.io/badge/Hypervisor-000000?style=for-the-badge)
-![Ring 0 Programming](https://img.shields.io/badge/Ring0%2FKernel-4B0082?style=for-the-badge)
-![Performance Profiling](https://img.shields.io/badge/Latency%20Profiling-FF6B6B?style=for-the-badge)
 
 ### 🗄️ Bases de Datos
 
