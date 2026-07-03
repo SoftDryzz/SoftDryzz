@@ -48,15 +48,6 @@ This represents **advanced systems programming** capabilities at the hypervisor 
 
 ---
 
-## 🔨 Currently Working On
-
-- **FindMatch** — Sports matchmaking platform with Rust backend (Axum) + Flutter mobile app. Matches, teams, leagues, venue bookings, real-time chat and Glicko-2 rating. PostGIS, Redis, Stripe.
-- **Vrydex** — Unified visibility SaaS platform for developers. GitHub repo health analysis + Linux server monitoring in a single dashboard with alerts and Stripe billing.
-- **Vaultic v2** — New version of the secrets manager with team support, automatic key rotation and integration plugins.
-- **Tower Rate Tier** — Tier-based rate limiting middleware for the Tower ecosystem in Rust.
-
----
-
 ## 🛠️ Tech Stack
 
 ### 🖥️ Languages
