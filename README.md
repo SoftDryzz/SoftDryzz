@@ -1,8 +1,10 @@
+<div align="center">
+
 # Hi, I'm Cristo Fernández Tomé 👋
 
-**Full-Stack Developer | Rust & TypeScript | Founder of [SoftDryzz](https://softdryzz.com)**
+**Systems & Full-Stack Developer · Rust · C++ · TypeScript · Founder of [SoftDryzz](https://softdryzz.com)**
 
-> *Cristo Fernandez Tome* — I build security tools, CLIs and desktop applications focused on performance and reliability.
+*From Ring 0 to the browser: I build hypervisors, reverse engineering tooling, security software, CLIs and web platforms.*
 
 [![Website](https://img.shields.io/badge/softdryzz.com-FF5722?style=flat-square&logo=google-chrome&logoColor=white)](https://softdryzz.com)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:contact@softdryzz.com)
@@ -10,31 +12,185 @@
 
 🌐 *[Leer en Español](README_ES.md)*
 
+</div>
+
 ---
 
 ## 🚀 About Me
 
-- 💻 **Backend Expert:** Specialized in **Rust**, **Java**, **TypeScript** and **Python**, with experience in **C#** and **.NET**.
-- 🌐 **Full-Stack Developer:** Building modern web apps with **React**, **Next.js**, **Svelte** and **Node.js**.
-- 🔒 **Security Focus:** Building tools for system monitoring, threat detection and security analysis.
-- 🧠 **Digital & AI Consultant:** Certified in Business Digitalization (EOI) and Artificial Intelligence (Founderz). Helping SMEs design and implement digital transformation plans.
-- 🤖 **AI Builder:** Developing autonomous local AI systems with self-evolution capabilities.
-- 🎯 **Focus:** Software architecture, automation, security tools and developer-centric applications.
+- 🔬 **Low-level first:** Windows kernel drivers, Intel VT-x virtualization and x86-64 internals. I like knowing what the machine is really doing.
+- 🕵️ **Reverse engineer:** Static and dynamic analysis of binaries, process memory and network protocols with Ghidra and x64dbg.
+- 🔒 **Security builder:** Threat detection, system monitoring, secrets management, licensing and anti-tamper.
+- 🦀 **Backend & full-stack:** **Rust**, **C++**, **Java**, **TypeScript** and **Python**, from Tower middleware to React/Svelte frontends and Tauri desktop apps.
+- 🤖 **AI & automation:** Local AI agents, LLM integration and workflow automation.
 
 ---
 
-## 🎯 Core Expertise & Knowledge Gained
+## 🧭 What I Work On
 
-Through the **Hyperion** hypervisor project, I've developed deep expertise in:
+| Area | What it covers |
+|---|---|
+| 🔬 **Systems & Low-Level** | Windows kernel drivers (WDK), Type-1 hypervisors (VMX, EPT, VMCS, VM-exits), x86-64 assembly, Windows internals |
+| 🕵️ **Reverse Engineering** | Ghidra, x64dbg, PE triage, unpacking, anti-debug analysis, process memory analysis, network protocol reversing |
+| 🔒 **Security Tooling** | Threat detection, system monitoring, secrets management, offline licensing & anti-tamper, Linux server hardening |
+| 🦀 **Backend & APIs** | Rust (Axum, Tower, Tokio), Java, Python (FastAPI), PostgreSQL, Redis |
+| 🌐 **Frontend & Desktop** | React, Next.js, Svelte, TailwindCSS, Tauri |
+| 🎮 **Game Tooling & Modding** | Minecraft server plugins (Paper/Velocity), Meteor Client addons, game memory & protocol analysis |
 
-- **Hypervisor & Virtualization:** VMX (Virtual Machine eXtension), EPT (Extended Page Tables), VM-exits, INVEPT invalidation, VM-entry/exit optimization
-- **Kernel-Mode Development:** Windows Driver Development Kit (WDK), Ring 0 ↔ Ring 3 communication via IOCTLs, lock-free kernel structures, memory mapping strategies
-- **Low-Level System Programming:** CPU caching behaviors (MTRR, CPUID), hardware threading, latency profiling (sub-microsecond cycle measurement)
-- **Performance Engineering:** Driver-level telemetry pipelines, async double-buffering, event filtering, overflow throttling at kernel-layer
-- **Threat Detection & Security:** Real-time event logging, forensic analysis integration, execution path tracing, anomaly detection in hardware events
-- **Systems Architecture:** Production-hardening strategies, multi-phase integration testing, phase-gated deployment (Phase 1→5), fire-test validation
+---
 
-This represents **advanced systems programming** capabilities at the hypervisor and kernel level — a specialization that unlocks deep understanding of operating systems, security, and performance optimization.
+## 📂 Featured Projects
+
+### 🔬 Systems & Reverse Engineering
+
+#### 🌀 Hyperion: Type-1 Hypervisor for Windows
+
+*Intel VT-x hypervisor for Windows x64. Ring 0 kernel driver in C++ plus a Ring 3 loader in Rust, with VM introspection and anti-reversing protection.*
+
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Assembly](https://img.shields.io/badge/x86--64%20ASM-6E4C13?style=flat-square&logo=intel&logoColor=white)
+![WDK](https://img.shields.io/badge/WDK-0078D6?style=flat-square&logo=windows&logoColor=white)
+![Private](https://img.shields.io/badge/repo-private-555555?style=flat-square&logo=github)
+
+- ⚙️ **VMX core:** VMCS setup, VM-exit handler, x64 assembly entry stubs and CPUID emulation
+- 🧱 **Memory virtualization:** EPT, copy-on-write shadow page tables, MTRR-aware memory typing and deferred INVEPT batching
+- 🪝 **EPT hooking & VMI:** Kernel-side VM-exit filtering, execution path tracing and anomaly scoring
+- 🔌 **Ring 0 → Ring 3 telemetry:** Async double-buffer pipeline with overflow throttling over an IOCTL gateway, Rust loader
+- 📊 **Performance:** Sub-microsecond latency profiling and execution histograms, multi-layer anti-reversing
+- 🧪 **Validation:** 5-phase gated deployment with fire-test validation
+
+---
+
+### 🔐 Security & Developer Tools
+
+#### 🔐 [Vaultic v1.4: Secrets Manager](https://github.com/SoftDryzz/vaultic)
+
+*CLI for securely managing secrets and configuration across teams, with Git-based sync. Published on [crates.io](https://crates.io/crates/vaultic).*
+
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+
+- 🔒 **Strong encryption:** age or GPG with multi-recipient support, no external cloud
+- 🌍 **Multi-environment:** dev/staging/prod with smart inheritance, diff and missing-variable detection
+- 🚀 **CI/CD ready:** `vaultic ci export` for GitHub/GitLab, `VAULTIC_AGE_KEY`, `--stdout` piping and CI-friendly exit codes
+- 📋 **Audit trail:** JSON history of who changed what and when
+
+#### 🛡️ Cerberus v1.0: Security Monitor
+
+*Private security monitor for Windows with real-time threat detection.*
+
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white)
+![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=flat-square&logo=svelte&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=flat-square&logo=sqlite&logoColor=white)
+![Private](https://img.shields.io/badge/repo-private-555555?style=flat-square&logo=github)
+
+- 🔴 **Process monitor:** Real-time analysis with risk scoring (0-100)
+- 🔵 **Executable analyzer:** Hash verification, PE analysis, VirusTotal integration
+- 🟢 **Network & system:** Per-process connections, startup items and scheduled tasks
+- 🟣 **Alerts & reports:** Native notifications, PDF export, auto-updater, 119 unit tests
+
+#### 🛠️ [ProjectManager v2.0: CLI](https://github.com/SoftDryzz/ProjectManager)
+
+*One command for all your projects. Detects project type and standardizes build/run/test with diagnostics, security and statistics.*
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
+
+- 🔍 **Auto-detection:** 12+ project types (Gradle, Maven, Node.js, .NET, Python, Rust, Go, Flutter, Docker...)
+- 🩺 **Diagnostics & security:** `pm doctor` with A-F scoring, `pm secure` and `pm audit`
+- ✅ **800+ tests:** Cross-platform (Windows, Linux, macOS)
+
+---
+
+### 🦀 Rust Crates
+
+#### 🌐 [Tower Rate Tier v0.2](https://github.com/SoftDryzz/tower-rate-tier) · [crates.io](https://crates.io/crates/tower-rate-tier)
+
+*Tier-based rate limiting middleware for Tower. Per-plan limits (free/pro/enterprise), request cost, pluggable storage and standard headers.*
+
+- 📈 **GCRA algorithm** with per-request cost and per-day/custom windows
+- 🔌 **Pluggable storage:** In-memory (DashMap) or Redis for multiple servers
+- 🎛️ **Customizable:** `on_limited` callback and custom 429 responses, Criterion benchmarks
+- 🏗️ **Tower-native:** Axum, Hyper and any Tower service, MSRV 1.75
+
+#### 🧰 [Tower Request Guard v0.1](https://github.com/SoftDryzz/tower-request-guard) · [crates.io](https://crates.io/crates/tower-request-guard)
+
+*Request validation middleware for Tower. Replaces 3-4 separate layers with a single configurable guard.*
+
+- 📏 **Validation:** Max body size, per-route timeouts, Content-Type and required headers
+- 💣 **JSON bomb protection:** Max nesting depth validation
+- 🧭 **Per-route overrides** plus dry-run `LogAndPass` mode for gradual migration
+- 🏗️ **Tower-native:** Axum, Tonic, Hyper or any Tower-based framework
+
+---
+
+## 🛠️ Tech Stack
+
+**Languages**
+
+![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![Assembly](https://img.shields.io/badge/x86--64%20asm-6E4C13?style=for-the-badge&logo=intel&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white)
+![SQL](https://img.shields.io/badge/sql-%2300758F.svg?style=for-the-badge&logo=amazondocumentdb&logoColor=white)
+
+**Systems & Reverse Engineering**
+
+![Windows Driver Kit](https://img.shields.io/badge/WDK-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Intel VT-x](https://img.shields.io/badge/Intel%20VT--x-0071C5?style=for-the-badge&logo=intel&logoColor=white)
+![Ghidra](https://img.shields.io/badge/Ghidra-D22128?style=for-the-badge&logoColor=white)
+![x64dbg](https://img.shields.io/badge/x64dbg-2B2B2B?style=for-the-badge&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
+
+**Backend & Runtime**
+
+![Tokio](https://img.shields.io/badge/tokio-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+![Axum](https://img.shields.io/badge/axum-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+![Tauri](https://img.shields.io/badge/tauri-%2324C8DB.svg?style=for-the-badge&logo=tauri&logoColor=%23FFFFFF)
+![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+
+**Frontend**
+
+![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+**Data & DevOps**
+
+![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
+![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
+---
+
+## 💼 What I Can Help With
+
+Available for freelance work and collaborations through [softdryzz.com](https://softdryzz.com):
+
+| Service | Description |
+|---|---|
+| 🕵️ **Reverse Engineering** | Binary and protocol analysis, software protection review, interoperability research |
+| 🔬 **Low-Level Development** | Windows drivers, virtualization, performance-critical Rust/C++ |
+| 🔒 **Security Tooling & Hardening** | Monitoring and detection tools, secrets management, server hardening |
+| 💻 **Custom Software** | Desktop apps, CLIs, APIs, middleware and integrations |
+| 🌐 **Web Development** | Landing pages, web platforms, e-commerce |
+| 🧠 **Digital & AI Consulting** | Digitalization plans, AI integration, process automation |
 
 ---
 
@@ -48,189 +204,21 @@ This represents **advanced systems programming** capabilities at the hypervisor 
 
 ---
 
-## 🛠️ Tech Stack
-
-### 🖥️ Languages
-
-![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
-![C++](https://img.shields.io/badge/c%2B%2B-%2300599C.svg?style=for-the-badge&logo=cplusplus&logoColor=white)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white)
-![SQL](https://img.shields.io/badge/sql-%2300758F.svg?style=for-the-badge&logo=amazondocumentdb&logoColor=white)
-
-### 🛡️ Systems & Kernel Programming
-
-![Windows Driver Kit](https://img.shields.io/badge/WDK-0078D4?style=for-the-badge&logo=windows&logoColor=white)
-![VMX/EPT](https://img.shields.io/badge/VMX%2FEPT-FF0000?style=for-the-badge&logo=virtualization&logoColor=white)
-![Hypervisor Development](https://img.shields.io/badge/Hypervisor-000000?style=for-the-badge)
-![Ring 0 Programming](https://img.shields.io/badge/Ring0%2FKernel-4B0082?style=for-the-badge)
-![Performance Profiling](https://img.shields.io/badge/Latency%20Profiling-FF6B6B?style=for-the-badge)
-
-### ⚙️ Frameworks & Frontend
-
-![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-### 🔧 Backend & Runtime
-
-![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Tauri](https://img.shields.io/badge/tauri-%2324C8DB.svg?style=for-the-badge&logo=tauri&logoColor=%23FFFFFF)
-![Tokio](https://img.shields.io/badge/tokio-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
-
-### 🗄️ Databases
-
-![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge&logo=databricks&logoColor=white)
-
-### 🚀 DevOps & Tools
-
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-
----
-
-## 📂 Featured Projects
-
-### 🔷 [Hyperion - Advanced Hypervisor & VMI Platform](https://github.com/SoftDryzz/Hyperion)
-
-*Production-ready kernel-mode hypervisor with real-time VMI (Virtual Machine Introspection) telemetry, threat detection, and forensic analysis. 5 development phases: VMX/EPT foundation → Ring 0↔3 telemetry → Event filtering → Memory shadowing → Threat detection & forensics UI.*
-
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Windows Driver Kit](https://img.shields.io/badge/WDK-0078D4?style=flat-square&logo=windows&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-
-- 🏗️ **Hypervisor Foundation:** VMX (Virtual Machine eXtension) with EPT (Extended Page Tables), MTRR caching optimization, CPUID emulation
-- 📊 **Real-Time Telemetry:** Lock-free Ring 0 → Ring 3 async double-buffer pipeline with intelligent overflow throttling
-- 🎯 **Event Filtering:** CPU-efficient kernel-mode filtering of VM-exits with per-event statistics
-- 🛡️ **Threat Detection:** Hardware-level execution path tracing, anomaly scoring, forensic event logging
-- 🔍 **Memory Shadowing:** Copy-on-Write semantics for stealthy memory monitoring and integrity checking
-- ⚡ **Performance Tuning:** Sub-microsecond latency profiling, INVEPT defer batching, hardware cache-aware algorithms
-- 🧪 **Production-Ready:** 5-phase gated deployment with fire-test validation, comprehensive error analysis, Spanish documentation suite
-
----
-
-### 🔐 [Vaultic v1.4 - Secrets Manager](https://github.com/SoftDryzz/vaultic)
-
-*CLI tool for securely managing secrets and configuration across teams, with Git-based sync. Published on crates.io.*
-
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-
-- 🔒 **Strong Encryption:** age or GPG encryption with multi-recipient support
-- 🔄 **Git-Based Sync:** No external cloud services needed
-- 🌍 **Multi-Environment:** dev/staging/prod with smart inheritance
-- 📊 **Diff & Comparison:** Compare secrets across files and resolved environments
-- 🔍 **Variable Detection:** Identifies missing or out-of-sync config variables
-- 📋 **Audit Trail:** Full history in JSON format of who changed what and when
-
----
-
-### 🛡️ [Cerberus - Security Monitor](https://github.com/SoftDryzz/Cerberus)
-
-*Private security monitor for Windows with real-time threat detection.*
-
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white)
-![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=flat-square&logo=svelte&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=flat-square&logo=sqlite&logoColor=white)
-
-- 🔴 **Process Monitor:** Real-time analysis with risk scoring (0-100)
-- 🔵 **Executable Analyzer:** Hash verification, PE analysis, VirusTotal integration
-- 🟢 **Network Monitor:** Active connections tracking per process
-- 🟡 **System Diagnosis:** Startup programs & scheduled tasks review
-- 🟣 **Smart Alerts:** Native Windows notifications with configurable thresholds
-- 🌐 **119 unit tests** | Bilingual support (ES/EN)
-
----
-
-### 🛠️ [ProjectManager v2.0 CLI](https://github.com/SoftDryzz/ProjectManager)
-
-*One command for all your projects. Detects project type and standardizes build/run/test with diagnostics, security and statistics.*
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
-
-- 🔍 **Automatic Detection:** Supports 12+ project types (Gradle, Maven, Node.js, .NET, Python, Rust, Go, Flutter, Docker...)
-- 🩺 **Diagnostics:** `pm doctor` for environment health with A-F scoring
-- 🔒 **Security:** `pm secure` scans misconfigurations, `pm audit` audits dependencies
-- 📊 **Statistics:** Build/test/run times and performance trends
-- ✅ **800+ Tests:** Cross-platform (Windows, Linux, macOS)
-
----
-
-### 🌐 [Tower Rate Tier - Tier-based Rate Limiting](https://github.com/SoftDryzz/tower-rate-tier)
-
-*Tier-based rate limiting middleware for the Tower ecosystem. Define limits per plan (free/pro/enterprise) with request cost support, pluggable storage and standard headers.*
-
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Tokio](https://img.shields.io/badge/Tokio-000000?style=flat-square&logo=rust&logoColor=white)
-
-- 🏷️ **Tier-based Rate Limiting:** Users define their own plans and limits (free, pro, enterprise...)
-- ⚖️ **Request Cost:** Heavy endpoints consume more quota than lightweight ones
-- 📈 **GCRA Algorithm:** Uniform load distribution, no bursts
-- 🔌 **Pluggable Storage:** In-memory (DashMap) or Redis for multiple servers
-- 🏗️ **Tower Compatible:** Works with Axum, Actix, Hyper and any Tower service
-
----
-
-### 🧠 [Overlord (Pandora) - Self-Evolving AI Agent](https://github.com/SoftDryzz/project-pandora)
-
-*Autonomous local AI agent with self-evolution, hardware awareness, bilingual voice and progressive autonomy. 9 development phases completed.*
-
-![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![React](https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-
-- 🧬 **Real Self-Evolution:** Optimizes its own prompts, tools and strategies autonomously
-- 🖥️ **Hardware Awareness:** Monitors GPU/CPU/RAM in real-time, detects bottlenecks and requests upgrades
-- 🗣️ **Bilingual Voice:** TTS + STT pipeline with Whisper, Kokoro and Silero VAD (ES/EN)
-- 🔒 **Progressive Autonomy:** 6-level permission system with human approval gateway & kill switch
-- 🧠 **Persistent Memory:** Episodic + vector (ChromaDB) + self-knowledge memory layers
-- 🌐 **Web UI + CLI:** Real-time React/Vite dashboard + CLI with Rich and live metrics
-- 🐳 **Docker Sandbox:** Secure code execution + web automation with Playwright
-- ⚡ **Rust Modules:** High-speed file indexing and text search via PyO3
-
----
-
-## 💼 Services
-
-I also offer professional services through [softdryzz.com](https://softdryzz.com):
-
-| Service | Description |
-|---|---|
-| 🧠 **Digital & AI Consulting** | Digital audits, transformation plans, AI integration |
-| 💻 **Custom Development** | Desktop apps, internal tools, integrations & APIs |
-| ⚙️ **Process Automation** | Automated workflows, system integration, team training |
-| 🌐 **Web Development** | Landing pages, multi-section websites, e-commerce |
-
----
-
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=SoftDryzz&show_icons=true&theme=github_dark&include_all_commits=true&hide_border=true" height="165" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=SoftDryzz&layout=compact&theme=github_dark&langs_count=8&hide_border=true" height="165" />
+  <img src="./profile/stats.svg" height="165" alt="GitHub stats" />
+  <img src="./profile/top-langs.svg" height="165" alt="Top languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SoftDryzz&theme=github-compact&hide_border=true" />
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" />
 </p>
 
----
-![Profile Views](https://komarev.com/ghpvc/?username=SoftDryzz&color=2ea44f&style=flat&label=Profile+Views)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=SoftDryzz&color=2ea44f&style=flat&label=Profile+Views" alt="Profile views" />
+</p>
+
 ---
 
 ## 📫 Contact Me
@@ -242,7 +230,7 @@ I also offer professional services through [softdryzz.com](https://softdryzz.com
 | 📩 | **contact@softdryzz.com** | General inquiries and collaborations |
 | 🛡️ | **security@softdryzz.com** | Security vulnerabilities & responsible disclosure |
 | ⚖️ | **legal@softdryzz.com** | Commercial licensing |
-| 👤 | **cristo@softdryzz.com** | Direct / founder contact |
+| 👤 | **cristo@softdryzz.com** | Direct contact |
 
 ---
 
@@ -256,9 +244,6 @@ I also offer professional services through [softdryzz.com](https://softdryzz.com
   </a>
 </p>
 
----
+<p align="center"><i>"Code is like humor. When you have to explain it, it's bad." · Cory House</i></p>
 
-
-> *"Code is like humor. When you have to explain it, it's bad."* – Cory House
-
-**Let's build something awesome together!** 🚀
+<p align="center"><b>Let's build something awesome together!</b> 🚀</p>
