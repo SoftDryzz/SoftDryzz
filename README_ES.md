@@ -1,7 +1,5 @@
 <div align="center">
 
-# Hola, soy Cristo Fernández Tomé 👋
-
 **Desarrollador de Sistemas y Full-Stack · Rust · C++ · TypeScript · Fundador de [SoftDryzz](https://softdryzz.com)**
 
 *Del Ring 0 al navegador: construyo hipervisores, herramientas de ingeniería inversa, software de seguridad, CLIs y plataformas web.*
