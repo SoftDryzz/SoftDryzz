@@ -1,6 +1,5 @@
 <div align="center">
 
-# Hi, I'm Cristo Fernández Tomé 👋
 
 **Systems & Full-Stack Developer · Rust · C++ · TypeScript · Founder of [SoftDryzz](https://softdryzz.com)**
 
