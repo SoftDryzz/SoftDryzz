@@ -37,6 +37,18 @@
 
 ---
 
+## ✍️ Últimas Entradas del Blog
+
+| Entrada | Tema |
+|---|---|
+| [Ring -1: el hipervisor que vigila a tu kernel](https://softdryzz.com/blog/posts/ring-menos-1-hipervisor) | Hipervisores, VT-x/AMD-V, EPT, VBS/HVCI · ejemplos en C++ con `CPUID` |
+| [De Ring 3 a Ring 0: qué pasa cuando tu código cruza la frontera del kernel](https://softdryzz.com/blog/posts/de-ring-3-a-ring-0) | Anillos de privilegio, syscalls, defensas del kernel · ejemplos en C++ |
+| [Por qué Rust sigue siendo el lenguaje más seguro en 2026](https://softdryzz.com/blog/posts/rust-memory-safety-2026) | Ownership, borrowing y seguridad de memoria |
+
+*Entradas bilingües (ES/EN). El código de la serie Ring 0 / Ring -1 se compila y ejecuta en Linux y Windows antes de publicarse.* → [Todas las entradas](https://softdryzz.com/blog/)
+
+---
+
 ## 📂 Proyectos Destacados
 
 ### 🔬 Sistemas e Ingeniería Inversa
@@ -88,7 +100,7 @@
 - 🟢 **Red y sistema:** Conexiones por proceso, programas de inicio y tareas programadas
 - 🟣 **Alertas e informes:** Notificaciones nativas, exportación a PDF, auto-actualización, 119 unit tests
 
-#### 🛠️ [ProjectManager v2.0: CLI](https://github.com/SoftDryzz/ProjectManager)
+#### 🛠️ [ProjectManager v2.1: CLI](https://github.com/SoftDryzz/ProjectManager)
 
 *Un comando para todos tus proyectos. Detecta el tipo y estandariza build/run/test con diagnósticos, seguridad y estadísticas.*
 
@@ -98,6 +110,28 @@
 - 🔍 **Detección automática:** 12+ tipos de proyecto (Gradle, Maven, Node.js, .NET, Python, Rust, Go, Flutter, Docker...)
 - 🩺 **Diagnóstico y seguridad:** `pm doctor` con puntuación A-F, `pm secure` y `pm audit`
 - ✅ **800+ tests:** Multiplataforma (Windows, Linux, macOS)
+
+---
+
+### 🤖 IA y Automatización
+
+#### 🧠 Project Pandora: Agente de IA Local Auto-Evolutivo
+
+*Agente de IA autónomo que se ejecuta íntegramente en hardware local. 9 fases completadas.*
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Private](https://img.shields.io/badge/repo-private-555555?style=flat-square&logo=github)
+
+- 🧩 **Cuatro cerebros LLM especializados:** conversación, código, razonamiento y tareas rápidas (Qwen3, DeepSeek-R1 vía Ollama)
+- 🛠️ **Herramientas integradas:** archivos, generación de código, sandbox Docker y web scraping
+- 🔁 **Motor de auto-evolución:** prompts y herramientas que mejoran mediante benchmarks
+- 🎙️ **Pipeline de voz bilingüe:** Whisper STT, Kokoro TTS y Silero VAD
+- 🗂️ **Memoria persistente:** memoria episódica y base vectorial ChromaDB
+- 🛑 **6 niveles de autonomía** con kill switch de emergencia · módulos en Rust vía PyO3
 
 ---
 
@@ -120,6 +154,24 @@
 - 💣 **Protección contra JSON bombs:** Validación de profundidad máxima de anidamiento
 - 🧭 **Overrides por ruta** y modo `LogAndPass` (dry-run) para migraciones graduales
 - 🏗️ **Nativo de Tower:** Axum, Tonic, Hyper o cualquier framework basado en Tower
+
+---
+
+### 🧩 Más Proyectos
+
+| Proyecto | Qué es | Stack |
+|---|---|---|
+| **Vrydex** 🔒 | Panel SaaS para desarrolladores: salud de repositorios de GitHub (dependencias desactualizadas, vulnerabilidades) y monitorización de servidores Linux, con OAuth de GitHub | Rust |
+| **MineHub** 🔒 | Centro de gestión local de servidores de Minecraft: jugadores, consola, permisos, mods, modpacks, texture packs y datapacks | Rust |
+| **ProLoginAuth · ProSkins** 🔒 | Plugins comerciales para Paper 1.21 en servidores cross-play: auto-login premium verificado contra Mojang, contraseña para jugadores no premium, Bedrock vía Floodgate y skins para jugadores no premium | Java |
+| **Spectra** 🔒 | Bot de Discord para servidores de equipos de desarrollo: gestión de canales, daily standups, webhooks de GitHub y onboarding | TypeScript |
+| **xt** 🔒 | Generador de arte de terminal (logotipos grafiti y glitch con caracteres de medio bloque) y CLI personal que cruza los repos de GitHub con los clones locales | JavaScript |
+| **Cerberus Pro** 🔒 | Edición ampliada de Cerberus con inteligencia de amenazas adicional y funciones profesionales | Rust · Tauri · Svelte |
+| [FileSystemMonitor](https://github.com/SoftDryzz/FileSystemMonitor) | Monitor en tiempo real de cambios en el sistema de archivos de Windows | C# · WPF |
+| [WindowsOptimizer](https://github.com/SoftDryzz/WindowsOptimizer) | Limpieza, gestión del arranque y ajustes del sistema para Windows | C# · .NET 8 |
+| [system_monitor](https://github.com/SoftDryzz/system_monitor) | Monitor de sistema CLI multiplataforma con indicadores de salud y modo watch | Rust |
+
+🔒 Repositorio privado
 
 ---
 
@@ -146,6 +198,8 @@
 ![Intel VT-x](https://img.shields.io/badge/Intel%20VT--x-0071C5?style=for-the-badge&logo=intel&logoColor=white)
 ![Ghidra](https://img.shields.io/badge/Ghidra-D22128?style=for-the-badge&logoColor=white)
 ![x64dbg](https://img.shields.io/badge/x64dbg-2B2B2B?style=for-the-badge&logoColor=white)
+![WinDbg](https://img.shields.io/badge/WinDbg-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![wgpu](https://img.shields.io/badge/wgpu%20%C2%B7%20WGSL-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
 
 **Backend y Runtime**
@@ -164,6 +218,7 @@
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
 
 **Datos y DevOps**
 

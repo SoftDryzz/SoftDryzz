@@ -38,6 +38,18 @@
 
 ---
 
+## ✍️ Latest from the Blog
+
+| Post | Topic |
+|---|---|
+| [Ring -1: the hypervisor watching over your kernel](https://softdryzz.com/blog/posts/ring-menos-1-hipervisor) | Hypervisors, VT-x/AMD-V, EPT, VBS/HVCI · C++ `CPUID` examples |
+| [From Ring 3 to Ring 0: what happens when your code crosses into the kernel](https://softdryzz.com/blog/posts/de-ring-3-a-ring-0) | Privilege rings, syscalls, kernel defenses · C++ examples |
+| [Why Rust remains the safest language in 2026](https://softdryzz.com/blog/posts/rust-memory-safety-2026) | Ownership, borrowing and memory safety |
+
+*Bilingual posts (ES/EN). The code in the Ring 0 / Ring -1 series is compiled and run on Linux and Windows before publishing.* → [All posts](https://softdryzz.com/blog/)
+
+---
+
 ## 📂 Featured Projects
 
 ### 🔬 Systems & Reverse Engineering
@@ -89,7 +101,7 @@
 - 🟢 **Network & system:** Per-process connections, startup items and scheduled tasks
 - 🟣 **Alerts & reports:** Native notifications, PDF export, auto-updater, 119 unit tests
 
-#### 🛠️ [ProjectManager v2.0: CLI](https://github.com/SoftDryzz/ProjectManager)
+#### 🛠️ [ProjectManager v2.1: CLI](https://github.com/SoftDryzz/ProjectManager)
 
 *One command for all your projects. Detects project type and standardizes build/run/test with diagnostics, security and statistics.*
 
@@ -99,6 +111,28 @@
 - 🔍 **Auto-detection:** 12+ project types (Gradle, Maven, Node.js, .NET, Python, Rust, Go, Flutter, Docker...)
 - 🩺 **Diagnostics & security:** `pm doctor` with A-F scoring, `pm secure` and `pm audit`
 - ✅ **800+ tests:** Cross-platform (Windows, Linux, macOS)
+
+---
+
+### 🤖 AI & Automation
+
+#### 🧠 Project Pandora: Self-Evolving Local AI Agent
+
+*Autonomous AI agent that runs entirely on local hardware. 9 phases shipped.*
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Private](https://img.shields.io/badge/repo-private-555555?style=flat-square&logo=github)
+
+- 🧩 **Four specialized LLM brains:** conversation, code, reasoning and fast tasks (Qwen3, DeepSeek-R1 via Ollama)
+- 🛠️ **Integrated tools:** files, code generation, Docker sandbox and web scraping
+- 🔁 **Self-evolution engine:** prompts and tools improved through benchmarks
+- 🎙️ **Bilingual voice pipeline:** Whisper STT, Kokoro TTS and Silero VAD
+- 🗂️ **Persistent memory:** episodic memory plus a ChromaDB vector store
+- 🛑 **6-level autonomy ladder** with an emergency kill switch · Rust modules via PyO3
 
 ---
 
@@ -121,6 +155,24 @@
 - 💣 **JSON bomb protection:** Max nesting depth validation
 - 🧭 **Per-route overrides** plus dry-run `LogAndPass` mode for gradual migration
 - 🏗️ **Tower-native:** Axum, Tonic, Hyper or any Tower-based framework
+
+---
+
+### 🧩 More Projects
+
+| Project | What it is | Stack |
+|---|---|---|
+| **Vrydex** 🔒 | SaaS developer dashboard: GitHub repository health (outdated dependencies, vulnerabilities) plus Linux server monitoring, with GitHub OAuth | Rust |
+| **MineHub** 🔒 | Local Minecraft server management hub: players, console, permissions, mods, modpacks, texture packs and datapacks | Rust |
+| **ProLoginAuth · ProSkins** 🔒 | Commercial Paper 1.21 plugins for cross-play servers: premium auto-login verified against Mojang, password auth for non-premium players, Bedrock via Floodgate, and skins for non-premium players | Java |
+| **Spectra** 🔒 | Discord bot for development-team servers: channel management, daily standups, GitHub webhooks and onboarding | TypeScript |
+| **xt** 🔒 | Terminal-art generator (graffiti and glitch logos drawn with half-block characters) plus a personal CLI that cross-checks GitHub repos against local clones | JavaScript |
+| **Cerberus Pro** 🔒 | Extended edition of Cerberus with additional threat intelligence and professional features | Rust · Tauri · Svelte |
+| [FileSystemMonitor](https://github.com/SoftDryzz/FileSystemMonitor) | Real-time file system change monitor for Windows | C# · WPF |
+| [WindowsOptimizer](https://github.com/SoftDryzz/WindowsOptimizer) | Cleanup, startup management and system tweaks for Windows | C# · .NET 8 |
+| [system_monitor](https://github.com/SoftDryzz/system_monitor) | Cross-platform CLI system monitor with health indicators and watch mode | Rust |
+
+🔒 Private repository
 
 ---
 
@@ -147,6 +199,8 @@
 ![Intel VT-x](https://img.shields.io/badge/Intel%20VT--x-0071C5?style=for-the-badge&logo=intel&logoColor=white)
 ![Ghidra](https://img.shields.io/badge/Ghidra-D22128?style=for-the-badge&logoColor=white)
 ![x64dbg](https://img.shields.io/badge/x64dbg-2B2B2B?style=for-the-badge&logoColor=white)
+![WinDbg](https://img.shields.io/badge/WinDbg-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![wgpu](https://img.shields.io/badge/wgpu%20%C2%B7%20WGSL-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
 
 **Backend & Runtime**
@@ -165,6 +219,7 @@
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
 
 **Data & DevOps**
 
