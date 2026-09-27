@@ -327,16 +327,6 @@ Available for freelance work and collaborations through [softdryzz.com](https://
 
 ---
 
-## 🎓 Education & Certifications
-
-| Title | Institution |
-|---|---|
-| **Multi-platform Application Development (DAM)** | Campus Cámara de Comercio de Sevilla |
-| **Business Digitalization** | EOI (Escuela de Organización Industrial) |
-| **Artificial Intelligence Specialist** | Founderz |
-
----
-
 ## 📈 GitHub Stats
 
 <p align="center">
