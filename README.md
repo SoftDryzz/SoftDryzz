@@ -23,7 +23,7 @@
 |---|---|
 | 🔬 **Low-level** | Windows kernel drivers (WDK) · Type-1 hypervisor on Intel VT-x/EPT · x86-64 assembly |
 | 🕵️ **Reverse engineering** | Ghidra · x64dbg · WinDbg · PE triage · isolated analysis lab |
-| 🦀 **Open source** | 3 crates on crates.io · 40 public releases · 800+ tests in ProjectManager |
+| 🦀 **Open source** | 3 crates on crates.io · 41 public releases · 800+ tests in ProjectManager |
 | 🧾 **Business software** | VeriFactu e-invoicing and a FIFO/IRPF capital-gains engine for the Spanish market |
 | 📦 **Portfolio** | 50+ repositories · top languages by volume: C++, Java, Rust, TypeScript |
 
@@ -31,8 +31,9 @@
 
 - 🧾 Building a **VeriFactu-compliant e-invoicing application** (Rust · Axum · Tauri · SvelteKit)
 - 📈 Building a **capital-gains tax engine** (FIFO / Spanish IRPF) for tax advisors
-- ✍️ Writing a blog series on x86 privilege rings: [Ring 0](https://softdryzz.com/blog/posts/de-ring-3-a-ring-0) → [Ring -1](https://softdryzz.com/blog/posts/ring-menos-1-hipervisor) → Ring -2 (SMM) next
+- ✍️ Finished a blog series on x86 privilege rings: [Ring 0](https://softdryzz.com/blog/posts/de-ring-3-a-ring-0) → [Ring -1](https://softdryzz.com/blog/posts/ring-menos-1-hipervisor) → [Ring -2](https://softdryzz.com/blog/posts/ring-menos-2-smm) · coming next: the anatomy of a Windows driver
 - 🛠️ Shipped [ProjectManager v2.1](https://github.com/SoftDryzz/ProjectManager/releases) (September 2026)
+- 🎮 Shipped [Xploits v0.7](https://github.com/SoftDryzz/Xploits/releases), a Meteor Client addon (September 2026)
 
 ---
 
@@ -218,6 +219,20 @@ Both Tower crates work with Axum, Hyper, Tonic and any Tower service.
 
 </details>
 
+### 🎮 Game Tooling
+
+#### ⚔️ [Xploits v0.7: Meteor Client Addon](https://github.com/SoftDryzz/Xploits)
+
+*Meteor Client addon for Minecraft 1.21.11, built for 6b6t and other anarchy servers. Ten modules, each switched on separately.*
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Minecraft](https://img.shields.io/badge/Minecraft-1.21.11-62B47A?style=flat-square)
+![Release](https://img.shields.io/github/v/release/SoftDryzz/Xploits?style=flat-square&color=2ea44f)
+
+- 🪂 **Travel & exploration:** elytra travel with evasion patterns and Nether sweeping, built on Baritone and Trouser Streak instead of reimplementing them
+- 🗃️ **Utilities:** stash index, elytra replacement, combat module direction, kit and TPA helpers, and an external log console
+- 🧭 **Design rule:** no module does half a job silently: if it cannot deliver what it promises, it refuses and says which setting to change
+
 ### 🧩 More Projects
 
 | Project | What it is | Stack |
@@ -240,11 +255,12 @@ Both Tower crates work with Axum, Hyper, Tonic and any Tower service.
 
 | Post | Topic |
 |---|---|
+| [Ring -2: the mode not even the hypervisor can see](https://softdryzz.com/blog/posts/ring-menos-2-smm) | System Management Mode, SMRAM, WSMT · C++ example reading the firmware's ACPI tables |
 | [Ring -1: the hypervisor watching over your kernel](https://softdryzz.com/blog/posts/ring-menos-1-hipervisor) | Hypervisors, VT-x/AMD-V, EPT, VBS/HVCI · C++ `CPUID` examples |
 | [From Ring 3 to Ring 0: what happens when your code crosses into the kernel](https://softdryzz.com/blog/posts/de-ring-3-a-ring-0) | Privilege rings, syscalls, kernel defenses · C++ examples |
 | [Why Rust remains the safest language in 2026](https://softdryzz.com/blog/posts/rust-memory-safety-2026) | Ownership, borrowing and memory safety |
 
-*Bilingual posts (ES/EN). The code in the Ring 0 / Ring -1 series is compiled and run on Linux and Windows before publishing.* → [All posts](https://softdryzz.com/blog/)
+*Bilingual posts (ES/EN). The code in the [x86 privilege rings series](https://softdryzz.com/blog/series/anillos-x86) is compiled and run before publishing.* → [All posts](https://softdryzz.com/blog/)
 
 ---
 

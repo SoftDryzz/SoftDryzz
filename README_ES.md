@@ -23,7 +23,7 @@
 |---|---|
 | 🔬 **Bajo nivel** | Drivers de kernel de Windows (WDK) · hipervisor Type-1 sobre Intel VT-x/EPT · ensamblador x86-64 |
 | 🕵️ **Ingeniería inversa** | Ghidra · x64dbg · WinDbg · triaje de PE · laboratorio de análisis aislado |
-| 🦀 **Open source** | 3 crates en crates.io · 40 releases públicas · 800+ tests en ProjectManager |
+| 🦀 **Open source** | 3 crates en crates.io · 41 releases públicas · 800+ tests en ProjectManager |
 | 🧾 **Software de negocio** | Facturación electrónica VeriFactu y motor de plusvalías FIFO/IRPF para el mercado español |
 | 📦 **Portfolio** | 50+ repositorios · lenguajes principales por volumen: C++, Java, Rust, TypeScript |
 
@@ -31,8 +31,9 @@
 
 - 🧾 Desarrollando una **aplicación de facturación electrónica compatible con VeriFactu** (Rust · Axum · Tauri · SvelteKit)
 - 📈 Desarrollando un **motor de plusvalías** (FIFO / IRPF) para asesores fiscales
-- ✍️ Escribiendo una serie en el blog sobre los anillos de privilegio de x86: [Ring 0](https://softdryzz.com/blog/posts/de-ring-3-a-ring-0) → [Ring -1](https://softdryzz.com/blog/posts/ring-menos-1-hipervisor) → Ring -2 (SMM) próximamente
+- ✍️ Terminada la serie del blog sobre los anillos de privilegio de x86: [Ring 0](https://softdryzz.com/blog/posts/de-ring-3-a-ring-0) → [Ring -1](https://softdryzz.com/blog/posts/ring-menos-1-hipervisor) → [Ring -2](https://softdryzz.com/blog/posts/ring-menos-2-smm) · lo siguiente: la anatomía de un driver de Windows
 - 🛠️ Publicada [ProjectManager v2.1](https://github.com/SoftDryzz/ProjectManager/releases) (septiembre de 2026)
+- 🎮 Publicado [Xploits v0.7](https://github.com/SoftDryzz/Xploits/releases), addon de Meteor Client (septiembre de 2026)
 
 ---
 
@@ -218,6 +219,20 @@ Los dos crates de Tower funcionan con Axum, Hyper, Tonic y cualquier servicio To
 
 </details>
 
+### 🎮 Tooling de Juegos
+
+#### ⚔️ [Xploits v0.7: Addon de Meteor Client](https://github.com/SoftDryzz/Xploits)
+
+*Addon de Meteor Client para Minecraft 1.21.11, pensado para 6b6t y otros servidores anarquía. Diez módulos, cada uno se activa por separado.*
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Minecraft](https://img.shields.io/badge/Minecraft-1.21.11-62B47A?style=flat-square)
+![Release](https://img.shields.io/github/v/release/SoftDryzz/Xploits?style=flat-square&color=2ea44f)
+
+- 🪂 **Viaje y exploración:** viaje en élitros con patrones de evasión y barrido del Nether, apoyados en Baritone y Trouser Streak en lugar de reimplementarlos
+- 🗃️ **Utilidades:** índice de alijos, reemplazo de élitros, dirección de módulos de combate, ayudas de kit y TPA, y una consola de registro externa
+- 🧭 **Regla de diseño:** ningún módulo hace el trabajo a medias sin decirlo: si no puede cumplir lo que promete, se niega y dice qué ajuste cambiar
+
 ### 🧩 Más Proyectos
 
 | Proyecto | Qué es | Stack |
@@ -240,11 +255,12 @@ Los dos crates de Tower funcionan con Axum, Hyper, Tonic y cualquier servicio To
 
 | Entrada | Tema |
 |---|---|
+| [Ring -2: el modo que ni el hipervisor puede ver](https://softdryzz.com/blog/posts/ring-menos-2-smm) | System Management Mode, SMRAM, WSMT · ejemplo en C++ que lee las tablas ACPI del firmware |
 | [Ring -1: el hipervisor que vigila a tu kernel](https://softdryzz.com/blog/posts/ring-menos-1-hipervisor) | Hipervisores, VT-x/AMD-V, EPT, VBS/HVCI · ejemplos en C++ con `CPUID` |
 | [De Ring 3 a Ring 0: qué pasa cuando tu código cruza la frontera del kernel](https://softdryzz.com/blog/posts/de-ring-3-a-ring-0) | Anillos de privilegio, syscalls, defensas del kernel · ejemplos en C++ |
 | [Por qué Rust sigue siendo el lenguaje más seguro en 2026](https://softdryzz.com/blog/posts/rust-memory-safety-2026) | Ownership, borrowing y seguridad de memoria |
 
-*Entradas bilingües (ES/EN). El código de la serie Ring 0 / Ring -1 se compila y ejecuta en Linux y Windows antes de publicarse.* → [Todas las entradas](https://softdryzz.com/blog/)
+*Entradas bilingües (ES/EN). El código de la [serie sobre los anillos de privilegio de x86](https://softdryzz.com/blog/series/anillos-x86) se compila y ejecuta antes de publicarse.* → [Todas las entradas](https://softdryzz.com/blog/)
 
 ---
 
