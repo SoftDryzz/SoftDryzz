@@ -327,16 +327,6 @@ Disponible para trabajo freelance y colaboraciones a través de [softdryzz.com](
 
 ---
 
-## 🎓 Formación y Certificaciones
-
-| Título | Institución |
-|---|---|
-| **Desarrollo de Aplicaciones Multiplataforma (DAM)** | Campus Cámara de Comercio de Sevilla |
-| **Digitalización Empresarial** | EOI (Escuela de Organización Industrial) |
-| **Especialista en Inteligencia Artificial** | Founderz |
-
----
-
 ## 📈 Estadísticas de GitHub
 
 <p align="center">
