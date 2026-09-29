@@ -32,7 +32,7 @@
 - 🧾 Building a **VeriFactu-compliant e-invoicing application** (Rust · Axum · Tauri · SvelteKit)
 - 📈 Building a **capital-gains tax engine** (FIFO / Spanish IRPF) for tax advisors
 - 🔐 Shipped [Vaultic v1.4.3](https://github.com/SoftDryzz/vaultic/releases/tag/v1.4.3), a security release that fixes a high-severity command injection ([GHSA-5cfx-fmm5-7p2f](https://github.com/SoftDryzz/vaultic/security/advisories/GHSA-5cfx-fmm5-7p2f)), with a [public post-mortem](https://softdryzz.com/blog/posts/vaultic-secreto-que-ejecutaba-codigo) (September 2026)
-- ✍️ Finished the blog series on x86 privilege rings ([Ring 0](https://softdryzz.com/blog/posts/de-ring-3-a-ring-0) → [Ring -1](https://softdryzz.com/blog/posts/ring-menos-1-hipervisor) → [Ring -2](https://softdryzz.com/blog/posts/ring-menos-2-smm)) and published [Anatomy of a Windows driver](https://softdryzz.com/blog/posts/anatomia-driver-windows)
+- ✍️ Finished the blog series on x86 privilege rings ([Ring 0](https://softdryzz.com/blog/posts/de-ring-3-a-ring-0) → [Ring -1](https://softdryzz.com/blog/posts/ring-menos-1-hipervisor) → [Ring -2](https://softdryzz.com/blog/posts/ring-menos-2-smm)) and published [Anatomy of a Windows driver](https://softdryzz.com/blog/posts/anatomia-driver-windows) and [Using C++ from Rust](https://softdryzz.com/blog/posts/rust-cpp-ffi-unsafe)
 - 🛠️ Shipped [ProjectManager v2.1](https://github.com/SoftDryzz/ProjectManager/releases) (September 2026)
 - 🎮 Shipped [Xploits v0.7](https://github.com/SoftDryzz/Xploits/releases), a Meteor Client addon (September 2026)
 
@@ -257,6 +257,7 @@ Both Tower crates work with Axum, Hyper, Tonic and any Tower service.
 
 | Post | Topic |
 |---|---|
+| [Using C++ from Rust: how a safe wrapper turns a use-after-free into a compile error](https://softdryzz.com/blog/posts/rust-cpp-ffi-unsafe) | `unsafe` and its five superpowers, a C API over C++, `#[repr(C)]`, lifetimes that encode a C++ contract, `Send`/`Sync`, panics across `extern "C"` · Rust + C++ code |
 | [A secret that ran code: post-mortem of a vulnerability in my own secrets manager](https://softdryzz.com/blog/posts/vaultic-secreto-que-ejecutaba-codigo) | Command injection through `eval` in CI, single-quote escaping, newlines in `$GITHUB_ENV`, coordinated disclosure (GHSA) |
 | [Anatomy of a Windows driver: from DriverEntry to the IRP](https://softdryzz.com/blog/posts/anatomia-driver-windows) | `DriverEntry`, IRQL, the journey of an IRP, dispatch table, custom IOCTLs, spinlocks · C++ code |
 | [x86 privilege rings: from Ring 3 to Ring -2](https://softdryzz.com/blog/series/anillos-x86) (complete series) | [Ring 0](https://softdryzz.com/blog/posts/de-ring-3-a-ring-0): syscalls and kernel defenses → [Ring -1](https://softdryzz.com/blog/posts/ring-menos-1-hipervisor): VT-x, EPT, VBS/HVCI → [Ring -2](https://softdryzz.com/blog/posts/ring-menos-2-smm): SMM, SMRAM, WSMT · C++ examples |
