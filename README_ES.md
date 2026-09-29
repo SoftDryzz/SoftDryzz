@@ -23,7 +23,7 @@
 |---|---|
 | 🔬 **Bajo nivel** | Drivers de kernel de Windows (WDK) · hipervisor Type-1 sobre Intel VT-x/EPT · ensamblador x86-64 |
 | 🕵️ **Ingeniería inversa** | Ghidra · x64dbg · WinDbg · triaje de PE · laboratorio de análisis aislado |
-| 🦀 **Open source** | 3 crates en crates.io · 41 releases públicas · 800+ tests en ProjectManager |
+| 🦀 **Open source** | 3 crates en crates.io · 48 releases públicas · 800+ tests en ProjectManager |
 | 🧾 **Software de negocio** | Facturación electrónica VeriFactu y motor de plusvalías FIFO/IRPF para el mercado español |
 | 📦 **Portfolio** | 50+ repositorios · lenguajes principales por volumen: C++, Java, Rust, TypeScript |
 
@@ -31,7 +31,8 @@
 
 - 🧾 Desarrollando una **aplicación de facturación electrónica compatible con VeriFactu** (Rust · Axum · Tauri · SvelteKit)
 - 📈 Desarrollando un **motor de plusvalías** (FIFO / IRPF) para asesores fiscales
-- ✍️ Terminada la serie del blog sobre los anillos de privilegio de x86: [Ring 0](https://softdryzz.com/blog/posts/de-ring-3-a-ring-0) → [Ring -1](https://softdryzz.com/blog/posts/ring-menos-1-hipervisor) → [Ring -2](https://softdryzz.com/blog/posts/ring-menos-2-smm) · lo siguiente: la anatomía de un driver de Windows
+- 🔐 Publicada [Vaultic v1.4.3](https://github.com/SoftDryzz/vaultic/releases/tag/v1.4.3), una versión de seguridad que corrige una inyección de comandos de severidad alta ([GHSA-5cfx-fmm5-7p2f](https://github.com/SoftDryzz/vaultic/security/advisories/GHSA-5cfx-fmm5-7p2f)), con [postmortem público](https://softdryzz.com/blog/posts/vaultic-secreto-que-ejecutaba-codigo) (septiembre de 2026)
+- ✍️ Terminada la serie del blog sobre los anillos de privilegio de x86 ([Ring 0](https://softdryzz.com/blog/posts/de-ring-3-a-ring-0) → [Ring -1](https://softdryzz.com/blog/posts/ring-menos-1-hipervisor) → [Ring -2](https://softdryzz.com/blog/posts/ring-menos-2-smm)) y publicada la [Anatomía de un driver de Windows](https://softdryzz.com/blog/posts/anatomia-driver-windows)
 - 🛠️ Publicada [ProjectManager v2.1](https://github.com/SoftDryzz/ProjectManager/releases) (septiembre de 2026)
 - 🎮 Publicado [Xploits v0.7](https://github.com/SoftDryzz/Xploits/releases), addon de Meteor Client (septiembre de 2026)
 
@@ -95,8 +96,9 @@
 <details>
 <summary><b>Más</b></summary>
 
+- 🛡️ **Versión de seguridad v1.4.3:** corregida una inyección de comandos de severidad alta en `ci export` ([GHSA-5cfx-fmm5-7p2f](https://github.com/SoftDryzz/vaultic/security/advisories/GHSA-5cfx-fmm5-7p2f)), permisos solo para el propietario en claves y archivos descifrados, escrituras atómicas · [postmortem](https://softdryzz.com/blog/posts/vaultic-secreto-que-ejecutaba-codigo)
 - 📋 **Auditoría:** historial JSON de quién cambió qué y cuándo
-- 🏷️ 6 releases, la última v1.4.2
+- 🏷️ 7 releases, la última v1.4.3
 
 </details>
 
@@ -255,12 +257,12 @@ Los dos crates de Tower funcionan con Axum, Hyper, Tonic y cualquier servicio To
 
 | Entrada | Tema |
 |---|---|
-| [Ring -2: el modo que ni el hipervisor puede ver](https://softdryzz.com/blog/posts/ring-menos-2-smm) | System Management Mode, SMRAM, WSMT · ejemplo en C++ que lee las tablas ACPI del firmware |
-| [Ring -1: el hipervisor que vigila a tu kernel](https://softdryzz.com/blog/posts/ring-menos-1-hipervisor) | Hipervisores, VT-x/AMD-V, EPT, VBS/HVCI · ejemplos en C++ con `CPUID` |
-| [De Ring 3 a Ring 0: qué pasa cuando tu código cruza la frontera del kernel](https://softdryzz.com/blog/posts/de-ring-3-a-ring-0) | Anillos de privilegio, syscalls, defensas del kernel · ejemplos en C++ |
+| [Un secreto que ejecutaba código: postmortem de una vulnerabilidad en mi gestor de secretos](https://softdryzz.com/blog/posts/vaultic-secreto-que-ejecutaba-codigo) | Inyección de comandos vía `eval` en CI, escapado con comillas simples, saltos de línea en `$GITHUB_ENV`, divulgación coordinada (GHSA) |
+| [Anatomía de un driver de Windows: del DriverEntry al IRP](https://softdryzz.com/blog/posts/anatomia-driver-windows) | `DriverEntry`, IRQL, el viaje de un IRP, tabla de dispatch, IOCTL propios, spinlocks · código C++ |
+| [Anillos de privilegio x86: del Ring 3 al Ring -2](https://softdryzz.com/blog/series/anillos-x86) (serie completa) | [Ring 0](https://softdryzz.com/blog/posts/de-ring-3-a-ring-0): syscalls y defensas del kernel → [Ring -1](https://softdryzz.com/blog/posts/ring-menos-1-hipervisor): VT-x, EPT, VBS/HVCI → [Ring -2](https://softdryzz.com/blog/posts/ring-menos-2-smm): SMM, SMRAM, WSMT · ejemplos en C++ |
 | [Por qué Rust sigue siendo el lenguaje más seguro en 2026](https://softdryzz.com/blog/posts/rust-memory-safety-2026) | Ownership, borrowing y seguridad de memoria |
 
-*Entradas bilingües (ES/EN). El código de la [serie sobre los anillos de privilegio de x86](https://softdryzz.com/blog/series/anillos-x86) se compila y ejecuta antes de publicarse.* → [Todas las entradas](https://softdryzz.com/blog/)
+*Entradas bilingües (ES/EN). El código de la [serie sobre los anillos de privilegio de x86](https://softdryzz.com/blog/series/anillos-x86) se compila y ejecuta antes de publicarse.* → [Todas las entradas](https://softdryzz.com/blog/) · [RSS](https://softdryzz.com/blog/feed.xml)
 
 ---
 

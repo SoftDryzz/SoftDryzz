@@ -23,7 +23,7 @@
 |---|---|
 | 🔬 **Low-level** | Windows kernel drivers (WDK) · Type-1 hypervisor on Intel VT-x/EPT · x86-64 assembly |
 | 🕵️ **Reverse engineering** | Ghidra · x64dbg · WinDbg · PE triage · isolated analysis lab |
-| 🦀 **Open source** | 3 crates on crates.io · 41 public releases · 800+ tests in ProjectManager |
+| 🦀 **Open source** | 3 crates on crates.io · 48 public releases · 800+ tests in ProjectManager |
 | 🧾 **Business software** | VeriFactu e-invoicing and a FIFO/IRPF capital-gains engine for the Spanish market |
 | 📦 **Portfolio** | 50+ repositories · top languages by volume: C++, Java, Rust, TypeScript |
 
@@ -31,7 +31,8 @@
 
 - 🧾 Building a **VeriFactu-compliant e-invoicing application** (Rust · Axum · Tauri · SvelteKit)
 - 📈 Building a **capital-gains tax engine** (FIFO / Spanish IRPF) for tax advisors
-- ✍️ Finished a blog series on x86 privilege rings: [Ring 0](https://softdryzz.com/blog/posts/de-ring-3-a-ring-0) → [Ring -1](https://softdryzz.com/blog/posts/ring-menos-1-hipervisor) → [Ring -2](https://softdryzz.com/blog/posts/ring-menos-2-smm) · coming next: the anatomy of a Windows driver
+- 🔐 Shipped [Vaultic v1.4.3](https://github.com/SoftDryzz/vaultic/releases/tag/v1.4.3), a security release that fixes a high-severity command injection ([GHSA-5cfx-fmm5-7p2f](https://github.com/SoftDryzz/vaultic/security/advisories/GHSA-5cfx-fmm5-7p2f)), with a [public post-mortem](https://softdryzz.com/blog/posts/vaultic-secreto-que-ejecutaba-codigo) (September 2026)
+- ✍️ Finished the blog series on x86 privilege rings ([Ring 0](https://softdryzz.com/blog/posts/de-ring-3-a-ring-0) → [Ring -1](https://softdryzz.com/blog/posts/ring-menos-1-hipervisor) → [Ring -2](https://softdryzz.com/blog/posts/ring-menos-2-smm)) and published [Anatomy of a Windows driver](https://softdryzz.com/blog/posts/anatomia-driver-windows)
 - 🛠️ Shipped [ProjectManager v2.1](https://github.com/SoftDryzz/ProjectManager/releases) (September 2026)
 - 🎮 Shipped [Xploits v0.7](https://github.com/SoftDryzz/Xploits/releases), a Meteor Client addon (September 2026)
 
@@ -95,8 +96,9 @@
 <details>
 <summary><b>More</b></summary>
 
+- 🛡️ **Security release v1.4.3:** fixed a high-severity command injection in `ci export` ([GHSA-5cfx-fmm5-7p2f](https://github.com/SoftDryzz/vaultic/security/advisories/GHSA-5cfx-fmm5-7p2f)), owner-only permissions for keys and decrypted files, atomic writes · [post-mortem](https://softdryzz.com/blog/posts/vaultic-secreto-que-ejecutaba-codigo)
 - 📋 **Audit trail:** JSON history of who changed what and when
-- 🏷️ 6 releases, latest v1.4.2
+- 🏷️ 7 releases, latest v1.4.3
 
 </details>
 
@@ -255,12 +257,12 @@ Both Tower crates work with Axum, Hyper, Tonic and any Tower service.
 
 | Post | Topic |
 |---|---|
-| [Ring -2: the mode not even the hypervisor can see](https://softdryzz.com/blog/posts/ring-menos-2-smm) | System Management Mode, SMRAM, WSMT · C++ example reading the firmware's ACPI tables |
-| [Ring -1: the hypervisor watching over your kernel](https://softdryzz.com/blog/posts/ring-menos-1-hipervisor) | Hypervisors, VT-x/AMD-V, EPT, VBS/HVCI · C++ `CPUID` examples |
-| [From Ring 3 to Ring 0: what happens when your code crosses into the kernel](https://softdryzz.com/blog/posts/de-ring-3-a-ring-0) | Privilege rings, syscalls, kernel defenses · C++ examples |
+| [A secret that ran code: post-mortem of a vulnerability in my own secrets manager](https://softdryzz.com/blog/posts/vaultic-secreto-que-ejecutaba-codigo) | Command injection through `eval` in CI, single-quote escaping, newlines in `$GITHUB_ENV`, coordinated disclosure (GHSA) |
+| [Anatomy of a Windows driver: from DriverEntry to the IRP](https://softdryzz.com/blog/posts/anatomia-driver-windows) | `DriverEntry`, IRQL, the journey of an IRP, dispatch table, custom IOCTLs, spinlocks · C++ code |
+| [x86 privilege rings: from Ring 3 to Ring -2](https://softdryzz.com/blog/series/anillos-x86) (complete series) | [Ring 0](https://softdryzz.com/blog/posts/de-ring-3-a-ring-0): syscalls and kernel defenses → [Ring -1](https://softdryzz.com/blog/posts/ring-menos-1-hipervisor): VT-x, EPT, VBS/HVCI → [Ring -2](https://softdryzz.com/blog/posts/ring-menos-2-smm): SMM, SMRAM, WSMT · C++ examples |
 | [Why Rust remains the safest language in 2026](https://softdryzz.com/blog/posts/rust-memory-safety-2026) | Ownership, borrowing and memory safety |
 
-*Bilingual posts (ES/EN). The code in the [x86 privilege rings series](https://softdryzz.com/blog/series/anillos-x86) is compiled and run before publishing.* → [All posts](https://softdryzz.com/blog/)
+*Bilingual posts (ES/EN). The code in the [x86 privilege rings series](https://softdryzz.com/blog/series/anillos-x86) is compiled and run before publishing.* → [All posts](https://softdryzz.com/blog/) · [RSS](https://softdryzz.com/blog/feed-en.xml)
 
 ---
 
