@@ -1,15 +1,16 @@
 <div align="center">
 
+## Cristo Fernández Tomé
 
-**Systems & Full-Stack Developer · C++ · Rust · TypeScript · Founder of [SoftDryzz](https://softdryzz.com)**
+**AI trainer for business · Software, systems, servers & AI engineering**
 
-*From Ring 0 to the browser: I build hypervisors, reverse engineering tooling, security software, CLIs and web platforms.*
+*From the operating system kernel to AI agents. I teach the AI I build.*
 
 [![Website](https://img.shields.io/badge/softdryzz.com-FF5722?style=flat-square&logo=google-chrome&logoColor=white)](https://softdryzz.com)
 [![Blog](https://img.shields.io/badge/Blog-111111?style=flat-square&logo=rss&logoColor=white)](https://softdryzz.com/blog/)
 [![crates.io](https://img.shields.io/badge/crates.io-3%20crates-E6B14C?style=flat-square&logo=rust&logoColor=white)](https://crates.io/crates/vaultic)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:contact@softdryzz.com)
-[![Available](https://img.shields.io/badge/Available%20for%20projects-00C853?style=flat-square)](#-contact-me)
+[![Email](https://img.shields.io/badge/xtoftome@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:xtoftome@gmail.com)
+[![Available](https://img.shields.io/badge/Available%20for%20training%20%26%20projects-00C853?style=flat-square)](#-contact)
 
 🌐 *[Leer en Español](README_ES.md)*
 
@@ -17,48 +18,65 @@
 
 ---
 
-## ⚡ At a Glance
+## 🎯 What I Do
 
 | | |
 |---|---|
-| 🔬 **Low-level** | Windows kernel drivers (WDK) · Type-1 hypervisor on Intel VT-x/EPT · x86-64 assembly |
-| 🕵️ **Reverse engineering** | Ghidra · x64dbg · WinDbg · PE triage · isolated analysis lab |
-| 🦀 **Open source** | 3 crates on crates.io · 48 public releases · 800+ tests in ProjectManager |
-| 🧾 **Business software** | VeriFactu e-invoicing and a FIFO/IRPF capital-gains engine for the Spanish market |
-| 📦 **Portfolio** | 50+ repositories · top languages by volume: C++, Java, Rust, TypeScript |
-
-## 🔭 Right Now
-
-- 🧾 Building a **VeriFactu-compliant e-invoicing application** (Rust · Axum · Tauri · SvelteKit)
-- 📈 Building a **capital-gains tax engine** (FIFO / Spanish IRPF) for tax advisors
-- 🔐 Shipped [Vaultic v1.4.3](https://github.com/SoftDryzz/vaultic/releases/tag/v1.4.3), a security release that fixes a high-severity command injection ([GHSA-5cfx-fmm5-7p2f](https://github.com/SoftDryzz/vaultic/security/advisories/GHSA-5cfx-fmm5-7p2f)), with a [public post-mortem](https://softdryzz.com/blog/posts/vaultic-secreto-que-ejecutaba-codigo) (September 2026)
-- ✍️ Finished the blog series on x86 privilege rings ([Ring 0](https://softdryzz.com/blog/posts/de-ring-3-a-ring-0) → [Ring -1](https://softdryzz.com/blog/posts/ring-menos-1-hipervisor) → [Ring -2](https://softdryzz.com/blog/posts/ring-menos-2-smm)) and published [Anatomy of a Windows driver](https://softdryzz.com/blog/posts/anatomia-driver-windows) and [Using C++ from Rust](https://softdryzz.com/blog/posts/rust-cpp-ffi-unsafe)
-- 🛠️ Shipped [ProjectManager v2.1](https://github.com/SoftDryzz/ProjectManager/releases) (September 2026)
-- 🎮 Shipped [Xploits v0.7](https://github.com/SoftDryzz/Xploits/releases), a Meteor Client addon (September 2026)
+| 🎓 **AI training** | Applied AI training for companies and institutions · **300+ hours** delivered · **50+ people** trained · **6+ sectors** |
+| 🏢 **AXIOM ZERO S.L.** | Founder, CEO & CTO (company in incorporation) |
+| 🧪 **R&D leadership** | R&D Director at an industrial company in the olive oil sector |
+| 🤖 **AI consulting** | AI consulting and automation through [SoftDryzz](https://softdryzz.com) |
 
 ---
 
-## 🧭 What I Work On
+## 🧠 Flagship Project: Pandora
+
+*My own autonomous, self-evolving AI system, running 100% locally. 21K+ lines of code. Private code, demo on request.*
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Demo on request](https://img.shields.io/badge/private%20code-demo%20on%20request-555555?style=flat-square&logo=github)
+
+- 🧩 **Multi-model orchestration:** 4 specialized models on Ollama (conversation, code, reasoning and fast tasks)
+- 🗂️ **Long-term memory:** RAG, episodic memory and a knowledge graph
+- 🔁 **Self-optimization:** improves its own prompts and tools by measuring itself against benchmarks
+- 🎙️ **Bilingual voice:** Whisper STT, Kokoro TTS and Silero VAD
+- 🛑 **Governance:** 6 autonomy levels and an emergency kill switch
+
+---
+
+## 🧭 Engineering Areas
 
 | Area | What it covers |
 |---|---|
-| 🔬 **Systems & Low-Level** | Windows kernel drivers (WDK), Type-1 hypervisors (VMX, EPT, VMCS, VM-exits), x86-64 assembly, Windows internals |
-| 🕵️ **Reverse Engineering** | Ghidra, x64dbg, WinDbg, PE triage, unpacking, anti-debug analysis, process memory analysis, network protocol reversing |
-| 🔒 **Security Tooling** | Threat detection, system monitoring, secrets management, offline licensing & anti-tamper, Linux server hardening |
-| 🧾 **Regulated Business Software** | Spanish e-invoicing (VeriFactu / AEAT), tax calculation engines, audit trails |
-| 🦀 **Backend & APIs** | Rust (Axum, Tower, Tokio), Java, Python (FastAPI), PostgreSQL, Redis |
-| 🌐 **Frontend, Desktop & Mobile** | React, Next.js, Svelte/SvelteKit, TailwindCSS, Tauri, Flutter |
-| 🎮 **Game Tooling & Modding** | Minecraft server plugins (Paper/Velocity), Meteor Client addons, game memory & protocol analysis |
+| 🤖 **Applied AI** | AI systems and agents, local models with Ollama, RAG, voice, process automation |
+| 🖥️ **Servers & infrastructure** | 25+ servers (VPS, dedicated and Windows Server) · automated hardening (SSH keys, UFW, Fail2Ban, AppArmor, auditd, AIDE, Lynis) · CI/CD with Docker and GitHub Actions · backups, monitoring and alerts · VPN and Cloudflare |
+| 📋 **ISO standards** | Experience with ISO/IEC 27001, ISO/IEC 42001, ISO 9001, ISO 14001 and ISO 22000 (with IFS/BRC) management systems |
+| 🔒 **Cybersecurity** | Threat monitoring and detection, secrets management, coordinated vulnerability disclosure (GHSA) |
+| 🔬 **Systems & low-level** | Windows kernel drivers (WDK), Type-1 hypervisors (VMX, EPT, VMCS, VM-exits), x86-64 assembly, Windows internals |
+| 🕵️ **Reverse engineering (security research)** | Ghidra, x64dbg, WinDbg · PE executable triage and analysis in an isolated lab |
+| 🧾 **Regulated business software** | Spanish e-invoicing (VeriFactu / AEAT), tax calculation engines, audit trails |
+| 🦀 **Backend, frontend & mobile** | Rust (Axum, Tower, Tokio), Java, Python (FastAPI), PostgreSQL, Redis · React, Next.js, SvelteKit, Tauri, Flutter |
+
+## 🔭 Right Now
+
+- 🎓 Delivering **applied AI training** for companies and institutions
+- 🧾 Building a **VeriFactu-compliant e-invoicing application** (Rust · Axum · Tauri · SvelteKit) and a **capital-gains tax engine** (FIFO / Spanish IRPF) for tax advisors
+- 🦀 Shipped [tower-rate-tier v0.3.0](https://github.com/SoftDryzz/tower-rate-tier/releases/tag/v0.3.0): rate limits shared across instances through Redis, with a [walkthrough on the blog](https://softdryzz.com/blog/posts/tower-rate-tier-limitar-por-plan) (October 2026)
+- 🔐 Shipped [Vaultic v1.4.3](https://github.com/SoftDryzz/vaultic/releases/tag/v1.4.3), a security release with a [public post-mortem](https://softdryzz.com/blog/posts/vaultic-secreto-que-ejecutaba-codigo) (September 2026)
 
 ---
 
 ## 📂 Featured Projects
 
-### 🔬 Systems & Reverse Engineering
+### 🔬 Systems & Security Research
 
-#### 🌀 Hyperion: Type-1 Hypervisor for Windows
+#### 🌀 Hyperion: Custom hypervisor (Intel VT-x/EPT)
 
-*Intel VT-x hypervisor for Windows x64. Ring 0 kernel driver in C++ plus a Ring 3 loader in Rust, with VM introspection and anti-reversing protection.*
+*Type-1 hypervisor for Windows x64: Ring 0 kernel driver in C++ plus a Ring 3 loader in Rust, with virtual machine introspection (VMI) and anomaly detection.*
 
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
@@ -67,22 +85,20 @@
 ![Private](https://img.shields.io/badge/repo-private-555555?style=flat-square&logo=github)
 
 - ⚙️ **VMX core:** VMCS setup, VM-exit handler, x64 assembly entry stubs and CPUID emulation
-- 🧱 **Memory virtualization:** EPT with MTRR-aware memory typing and deferred INVEPT batching
-- 🔌 **Ring 0 → Ring 3 telemetry:** async double-buffer pipeline over an IOCTL gateway, Rust loader
+- 🧱 **Memory virtualization:** EPT with MTRR-aware memory typing, deferred INVEPT batching and copy-on-write shadow page tables
+- 🔎 **Introspection & telemetry:** VM-exit filtering, execution path tracing and anomaly scoring, with a Ring 0 → Ring 3 pipeline over IOCTL
 
 <details>
 <summary><b>More internals</b></summary>
 
-- 🧱 Copy-on-write shadow page tables and 4 KB split paging
-- 🪝 **EPT hooking & VMI:** kernel-side VM-exit filtering, execution path tracing and anomaly scoring
-- 📊 **Performance:** sub-microsecond latency profiling and execution histograms, multi-layer anti-reversing
-- 🧪 **Validation:** 5-phase gated deployment with fire-test validation, tested under nested virtualization
+- 📊 Sub-microsecond latency profiling and execution histograms
+- 🧪 5-phase gated deployment, tested under nested virtualization
 
 </details>
 
 ### 🔐 Security & Developer Tools
 
-#### 🔐 [Vaultic v1.4: Secrets Manager](https://github.com/SoftDryzz/vaultic)
+#### 🔐 [Vaultic v1.4.3: Secrets Manager](https://github.com/SoftDryzz/vaultic)
 
 *CLI for securely managing secrets and configuration across teams, with Git-based sync. Published on [crates.io](https://crates.io/crates/vaultic).*
 
@@ -91,7 +107,7 @@
 
 - 🔒 **Strong encryption:** age or GPG with multi-recipient support, no external cloud
 - 🌍 **Multi-environment:** dev/staging/prod with smart inheritance, diff and missing-variable detection
-- 🚀 **CI/CD ready:** `vaultic ci export` for GitHub/GitLab, `VAULTIC_AGE_KEY`, `--stdout` piping and CI-friendly exit codes
+- 🚀 **CI/CD ready:** `vaultic ci export` for GitHub/GitLab, `--stdout` piping and CI-friendly exit codes
 
 <details>
 <summary><b>More</b></summary>
@@ -114,16 +130,7 @@
 
 - 🔴 **Process monitor:** real-time analysis with risk scoring (0-100)
 - 🔵 **Executable analyzer:** hash verification, PE analysis, VirusTotal integration
-- 🟢 **Network & system:** per-process connections, startup items and scheduled tasks
-
-<details>
-<summary><b>More</b></summary>
-
-- 🟣 **Alerts & reports:** native notifications, PDF export, auto-updater
-- 🧪 119 unit tests
-- ⭐ **Cerberus Pro:** extended threat intelligence and professional features
-
-</details>
+- 🟢 **Network & system:** per-process connections, startup items and scheduled tasks · native alerts, PDF reports and 119 unit tests
 
 #### 🛠️ [ProjectManager v2.1: CLI](https://github.com/SoftDryzz/ProjectManager)
 
@@ -141,11 +148,11 @@
 
 | Crate | What it does | Version |
 |---|---|---|
-| [**tower-rate-tier**](https://github.com/SoftDryzz/tower-rate-tier) | Tier-based rate limiting for Tower: per-plan limits (free/pro/enterprise), GCRA with per-request cost, in-memory (DashMap) or Redis storage, standard headers | [![crates.io](https://img.shields.io/crates/v/tower-rate-tier?style=flat-square&color=E6B14C)](https://crates.io/crates/tower-rate-tier) |
+| [**tower-rate-tier**](https://github.com/SoftDryzz/tower-rate-tier) | Tier-based rate limiting for Tower: per-plan limits (free/pro/enterprise), GCRA with per-request cost, limits shared across instances through Redis or in-memory (DashMap), safe defaults for unknown plans, standard headers · [walkthrough](https://softdryzz.com/blog/posts/tower-rate-tier-limitar-por-plan) | [![crates.io](https://img.shields.io/crates/v/tower-rate-tier?style=flat-square&color=E6B14C)](https://crates.io/crates/tower-rate-tier) |
 | [**tower-request-guard**](https://github.com/SoftDryzz/tower-request-guard) | One configurable guard instead of 3-4 layers: body size, per-route timeouts, Content-Type, required headers and JSON-bomb protection, with a dry-run `LogAndPass` mode | [![crates.io](https://img.shields.io/crates/v/tower-request-guard?style=flat-square&color=E6B14C)](https://crates.io/crates/tower-request-guard) |
 | [**vaultic**](https://github.com/SoftDryzz/vaultic) | Secrets manager CLI (see above) | [![crates.io](https://img.shields.io/crates/v/vaultic?style=flat-square&color=E6B14C)](https://crates.io/crates/vaultic) |
 
-Both Tower crates work with Axum, Hyper, Tonic and any Tower service.
+Both Tower crates work with Axum, Hyper and other Tower services; tower-request-guard also works with Tonic (Tonic support in tower-rate-tier is planned). 40+ public releases on GitHub in total.
 
 ### 🧾 Business Software
 
@@ -162,16 +169,7 @@ Both Tower crates work with Axum, Hyper, Tonic and any Tower service.
 
 - 🔗 **VeriFactu compliance:** chained invoice fingerprints, XML serialization and SOAP submission to the AEAT, verifiable QR codes
 - 🧭 **Strict invoice lifecycle:** backend-owned state machine that only shows official AEAT states
-- 🖥️ **Two deployments:** Axum server or Tauri desktop app, same SvelteKit UI
-
-<details>
-<summary><b>More</b></summary>
-
-- 📋 Audit log and licensing server architecture
-- 🧪 QA reports, test invoice suites and a penetration-test self-assessment
-- 🔄 Self-hosted CI runner
-
-</details>
+- 🖥️ **Two deployments:** Axum server or Tauri desktop app, same SvelteKit UI · audit log, test invoice suites and a penetration-test self-assessment
 
 #### 📈 Capital-Gains Tax Engine
 
@@ -182,7 +180,7 @@ Both Tower crates work with Axum, Hyper, Tonic and any Tower service.
 
 #### ⚽ Sports Matchmaking Platform
 
-*Mobile and web platform to organize matches, manage teams, track statistics, book pitches and run leagues and tournaments.*
+*Mobile and web platform to organize matches, manage teams, track statistics, book pitches and run leagues and tournaments. Flutter app (iOS, Android and Web), Rust + Axum API and Firebase push notifications.*
 
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
@@ -190,61 +188,13 @@ Both Tower crates work with Axum, Hyper, Tonic and any Tower service.
 ![Firebase](https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=white)
 ![Private](https://img.shields.io/badge/repo-private-555555?style=flat-square&logo=github)
 
-- 📱 Flutter app for iOS, Android and Web
-- 🦀 Rust + Axum API (workspace with api, core, db and common crates)
-- 🔔 Push notifications via Firebase (FCM + APNs)
-
-### 🤖 AI & Automation
-
-#### 🧠 Project Pandora: Self-Evolving Local AI Agent
-
-*Autonomous AI agent that runs entirely on local hardware. 9 phases shipped.*
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Private](https://img.shields.io/badge/repo-private-555555?style=flat-square&logo=github)
-
-- 🧩 **Four specialized LLM brains:** conversation, code, reasoning and fast tasks (Qwen3, DeepSeek-R1 via Ollama)
-- 🔁 **Self-evolution engine:** prompts and tools improved through benchmarks
-- 🛑 **6-level autonomy ladder** with an emergency kill switch
-
-<details>
-<summary><b>More</b></summary>
-
-- 🛠️ **Integrated tools:** files, code generation, Docker sandbox and web scraping
-- 🎙️ **Bilingual voice pipeline:** Whisper STT, Kokoro TTS and Silero VAD
-- 🗂️ **Persistent memory:** episodic memory plus a ChromaDB vector store
-- 🦀 Rust modules via PyO3
-
-</details>
-
-### 🎮 Game Tooling
-
-#### ⚔️ [Xploits v0.7: Meteor Client Addon](https://github.com/SoftDryzz/Xploits)
-
-*Meteor Client addon for Minecraft 1.21.11, built for 6b6t and other anarchy servers. Ten modules, each switched on separately.*
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Minecraft](https://img.shields.io/badge/Minecraft-1.21.11-62B47A?style=flat-square)
-![Release](https://img.shields.io/github/v/release/SoftDryzz/Xploits?style=flat-square&color=2ea44f)
-
-- 🪂 **Travel & exploration:** elytra travel with evasion patterns and Nether sweeping, built on Baritone and Trouser Streak instead of reimplementing them
-- 🗃️ **Utilities:** stash index, elytra replacement, combat module direction, kit and TPA helpers, and an external log console
-- 🧭 **Design rule:** no module does half a job silently: if it cannot deliver what it promises, it refuses and says which setting to change
-
 ### 🧩 More Projects
 
 | Project | What it is | Stack |
 |---|---|---|
+| **CXC** 🔒 | Crawler that indexes code for AI agents (RAG/MCP integration planned) | Rust |
 | **Vrydex** 🔒 | SaaS developer dashboard: GitHub repository health (outdated dependencies, vulnerabilities) plus Linux server monitoring, with GitHub OAuth | Rust |
-| **MineHub** 🔒 | Local Minecraft server management hub: players, console, permissions, mods, modpacks, texture packs and datapacks | Rust |
-| **Hyperions MC network** 🔒 | Cross-play Minecraft network infrastructure: Velocity proxy in front of Paper 1.21 servers, shared MariaDB, status page monitored from Cloudflare, Discord bots and website | Java · TypeScript · Python |
-| **ProLoginAuth · ProSkins** 🔒 | Commercial Paper 1.21 plugins for cross-play servers: premium auto-login verified against Mojang, password auth for non-premium players, Bedrock via Floodgate, and skins for non-premium players | Java |
 | **Spectra** 🔒 | Discord bot for development-team servers: channel management, daily standups, GitHub webhooks and onboarding | TypeScript |
-| **xt** 🔒 | Terminal-art generator (graffiti and glitch logos drawn with half-block characters) plus a personal CLI that cross-checks GitHub repos against local clones | JavaScript |
 | [FileSystemMonitor](https://github.com/SoftDryzz/FileSystemMonitor) | Real-time file system change monitor for Windows | C# · WPF |
 | [WindowsOptimizer](https://github.com/SoftDryzz/WindowsOptimizer) | Cleanup, startup management and system tweaks for Windows | C# · .NET 8 |
 | [system_monitor](https://github.com/SoftDryzz/system_monitor) | Cross-platform CLI system monitor with health indicators and watch mode | Rust |
@@ -257,6 +207,7 @@ Both Tower crates work with Axum, Hyper, Tonic and any Tower service.
 
 | Post | Topic |
 |---|---|
+| [Rate limiting an API by plan in Rust: GCRA, Redis and tower-rate-tier](https://softdryzz.com/blog/posts/tower-rate-tier-limitar-por-plan) | Per-plan limits, why GCRA instead of a fixed window, requests that cost more, limits shared across instances with Redis, safe defaults · example service with real output |
 | [Using C++ from Rust: how a safe wrapper turns a use-after-free into a compile error](https://softdryzz.com/blog/posts/rust-cpp-ffi-unsafe) | `unsafe` and its five superpowers, a C API over C++, `#[repr(C)]`, lifetimes that encode a C++ contract, `Send`/`Sync`, panics across `extern "C"` · Rust + C++ code |
 | [A secret that ran code: post-mortem of a vulnerability in my own secrets manager](https://softdryzz.com/blog/posts/vaultic-secreto-que-ejecutaba-codigo) | Command injection through `eval` in CI, single-quote escaping, newlines in `$GITHUB_ENV`, coordinated disclosure (GHSA) |
 | [Anatomy of a Windows driver: from DriverEntry to the IRP](https://softdryzz.com/blog/posts/anatomia-driver-windows) | `DriverEntry`, IRQL, the journey of an IRP, dispatch table, custom IOCTLs, spinlocks · C++ code |
@@ -275,15 +226,24 @@ Both Tower crates work with Axum, Hyper, Tonic and any Tower service.
 ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![Assembly](https://img.shields.io/badge/x86--64%20asm-6E4C13?style=for-the-badge&logo=intel&logoColor=white)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
 ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
 ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white)
 ![SQL](https://img.shields.io/badge/sql-%2300758F.svg?style=for-the-badge&logo=amazondocumentdb&logoColor=white)
+
+**AI, Servers & DevOps**
+
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Windows Server](https://img.shields.io/badge/Windows%20Server-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
 
 **Systems & Reverse Engineering**
 
@@ -292,11 +252,10 @@ Both Tower crates work with Axum, Hyper, Tonic and any Tower service.
 ![Ghidra](https://img.shields.io/badge/Ghidra-D22128?style=for-the-badge&logoColor=white)
 ![x64dbg](https://img.shields.io/badge/x64dbg-2B2B2B?style=for-the-badge&logoColor=white)
 ![WinDbg](https://img.shields.io/badge/WinDbg-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![wgpu](https://img.shields.io/badge/wgpu%20%C2%B7%20WGSL-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
 
 <details>
-<summary><b>Backend, frontend, mobile, data & DevOps</b></summary>
+<summary><b>Backend, frontend, mobile & data</b></summary>
 
 **Backend & Runtime**
 
@@ -305,8 +264,6 @@ Both Tower crates work with Axum, Hyper, Tonic and any Tower service.
 ![Tauri](https://img.shields.io/badge/tauri-%2324C8DB.svg?style=for-the-badge&logo=tauri&logoColor=%23FFFFFF)
 ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 
 **Frontend & Mobile**
 
@@ -316,15 +273,11 @@ Both Tower crates work with Axum, Hyper, Tonic and any Tower service.
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
 
-**Data & DevOps**
+**Data**
 
 ![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
 ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
 </details>
@@ -333,16 +286,14 @@ Both Tower crates work with Axum, Hyper, Tonic and any Tower service.
 
 ## 💼 What I Can Help With
 
-Available for freelance work and collaborations through [softdryzz.com](https://softdryzz.com):
-
 | Service | Description |
 |---|---|
-| 🕵️ **Reverse Engineering** | Binary and protocol analysis, software protection review, interoperability research |
-| 🔬 **Low-Level Development** | Windows drivers, virtualization, performance-critical Rust/C++ |
-| 🔒 **Security Tooling & Hardening** | Monitoring and detection tools, secrets management, server hardening |
-| 💻 **Custom Software** | Desktop apps, CLIs, APIs, middleware and integrations |
-| 🌐 **Web Development** | Landing pages, web platforms, e-commerce |
-| 🧠 **Digital & AI Consulting** | Digitalization plans, AI integration, process automation |
+| 🎓 **AI training** | Applied AI training for companies and institutions, tailored to each team |
+| 🧠 **AI consulting & automation** | Digitalization plans, AI integration, local AI and process automation |
+| 🖥️ **Servers & infrastructure** | Server deployment and administration, hardening, CI/CD, backups and monitoring |
+| 🔒 **Cybersecurity & ISO standards** | Monitoring and detection tooling, secrets management, ISO/IEC 27001 and 42001 management systems |
+| 💻 **Custom software** | Desktop apps, CLIs, APIs, web platforms and integrations |
+| 🔬 **Low-level & security research** | Windows drivers, virtualization, binary analysis, performance-critical Rust/C++ |
 
 ---
 
@@ -357,35 +308,12 @@ Available for freelance work and collaborations through [softdryzz.com](https://
   <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" />
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=SoftDryzz&color=2ea44f&style=flat&label=Profile+Views" alt="Profile views" />
-</p>
-
 ---
 
-## 📫 Contact Me
+## 📫 Contact
 
-[![Website](https://img.shields.io/badge/Website-softdryzz.com-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://softdryzz.com)
-
-| | Email | Purpose |
-|---|---|---|
-| 📩 | **contact@softdryzz.com** | General inquiries and collaborations |
-| 🛡️ | **security@softdryzz.com** | Security vulnerabilities & responsible disclosure |
-| ⚖️ | **legal@softdryzz.com** | Commercial licensing |
-| 👤 | **cristo@softdryzz.com** | Direct contact |
-
----
-
-<p align="center">
-  <a href="https://github.com/sponsors/SoftDryzz">
-    <img src="https://img.shields.io/badge/Sponsor-💗-ea4aaa?style=for-the-badge&logo=github" height="40" alt="GitHub Sponsors">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://buymeacoffee.com/xtoftomeo" target="_blank">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="40" alt="Buy Me A Coffee">
-  </a>
-</p>
-
-<p align="center"><i>"Code is like humor. When you have to explain it, it's bad." · Cory House</i></p>
-
-<p align="center"><b>Let's build something awesome together!</b> 🚀</p>
+| | |
+|---|---|
+| 📩 **Email** | [xtoftome@gmail.com](mailto:xtoftome@gmail.com) |
+| 🌐 **Website & blog** | [softdryzz.com](https://softdryzz.com) · [softdryzz.com/blog](https://softdryzz.com/blog/) |
+| 🛡️ **Security** | security@softdryzz.com · responsible vulnerability disclosure |
