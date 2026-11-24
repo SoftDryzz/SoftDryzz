@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">SoftDryzz&#39;s GitHub Stats, Rank: B-</title>
-        <desc id="descId">Total Stars Earned: 23, Total Contributions: 5910, Total Commits  : 627, Total PRs: 45, Total Issues: 31, Contributed to (all time): 10</desc>
+        <desc id="descId">Total Stars Earned: 23, Total Contributions: 5917, Total Commits  : 627, Total PRs: 45, Total Issues: 31, Contributed to (all time): 10</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 161.94844245667701;
+        stroke-dashoffset: 162.94577345781664;
       }
     }
   
